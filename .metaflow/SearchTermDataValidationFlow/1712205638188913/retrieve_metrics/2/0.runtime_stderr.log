@@ -1,0 +1,68 @@
+[MFLOG|0|2024-04-04T04:40:42.570782Z|runtime|8710e0ed-33bb-498f-b885-66a90e38dc8e]<flow SearchTermDataValidationFlow step retrieve_metrics> failed:
+[MFLOG|0|2024-04-04T04:40:42.574086Z|runtime|2217fda2-0c9d-49bc-ba61-c5d81a36ea06]    Internal error
+[MFLOG|0|2024-04-04T04:40:42.578526Z|runtime|d90d392f-d239-4644-98b8-a9830c3975fc]Traceback (most recent call last):
+[MFLOG|0|2024-04-04T04:40:42.578599Z|runtime|48aefdbf-0c67-4de0-add1-0e422086b454]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/cli.py", line 1172, in main
+[MFLOG|0|2024-04-04T04:40:42.578678Z|runtime|72d6747e-769c-4162-b526-4599a241aa13]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2024-04-04T04:40:42.578736Z|runtime|14f31f70-9eed-44fd-bd1b-e498abba246f]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2024-04-04T04:40:42.578790Z|runtime|0b31708c-88dd-4eb6-a082-62020a30ea37]    return func(args, kwargs)
+[MFLOG|0|2024-04-04T04:40:42.697127Z|runtime|03cfd098-d58c-4ee1-842c-e0fd7c9566c2]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2024-04-04T04:40:42.697388Z|runtime|b40f8150-7f6a-432d-8af6-c2ab28abc45a]    return self.main(args, kwargs)
+[MFLOG|0|2024-04-04T04:40:42.697441Z|runtime|507048b6-e77c-4d61-b661-83ff08abdeae]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2024-04-04T04:40:42.697494Z|runtime|2f41a0d5-545e-4c8c-acbe-d2351f8b2ccc]    rv = self.invoke(ctx)
+[MFLOG|0|2024-04-04T04:40:42.697530Z|runtime|037ccf1c-df61-48ea-b499-47f20782859b]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2024-04-04T04:40:42.697565Z|runtime|0dd99a41-ba95-4fed-abe6-2b1ccc6f4cfd]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2024-04-04T04:40:42.697598Z|runtime|cab9766e-853d-4cea-a137-0c8f6f617a33]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2024-04-04T04:40:42.697630Z|runtime|cd09a177-2877-4963-aaac-3e87df2239ca]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2024-04-04T04:40:42.697664Z|runtime|6d96a78c-b975-42ea-9f9a-e4cf28fd8bfc]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2024-04-04T04:40:42.697698Z|runtime|d4c78152-db75-48ec-85db-31f09c3efcc0]    return callback(args, kwargs)
+[MFLOG|0|2024-04-04T04:40:42.697732Z|runtime|e6580657-45e4-41a0-9325-bb262aeef5bc]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2024-04-04T04:40:42.697766Z|runtime|ba9f97f7-eacf-4b03-9164-428c572b729f]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2024-04-04T04:40:42.697799Z|runtime|272a7b23-c769-4e16-be19-0f1d9d050b83]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/cli.py", line 581, in step
+[MFLOG|0|2024-04-04T04:40:42.697832Z|runtime|7e36ce4a-88d3-4d8e-89a9-a10b3855e766]    task.run_step(
+[MFLOG|0|2024-04-04T04:40:42.697865Z|runtime|8102dbe1-02b1-4f79-a789-5c84972781f2]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/task.py", line 645, in run_step
+[MFLOG|0|2024-04-04T04:40:42.697894Z|runtime|6180a87d-e77a-46b9-ae2f-8d92f878a9a4]    self._exec_step_function(step_func)
+[MFLOG|0|2024-04-04T04:40:42.697924Z|runtime|8086685a-3729-4831-b1ad-00f021ddb373]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/metaflow/task.py", line 69, in _exec_step_function
+[MFLOG|0|2024-04-04T04:40:42.697955Z|runtime|2541b697-f12b-49ee-8a97-2fc9115c6160]    step_function()
+[MFLOG|0|2024-04-04T04:40:42.697988Z|runtime|865e7221-3909-46ae-98ef-e690de3cdfcc]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py", line 39, in retrieve_metrics
+[MFLOG|0|2024-04-04T04:40:42.698036Z|runtime|e5886f29-60e6-4f8c-b044-49c7f3bfaf97]    self.validation_df = retrieve_data_validation_metrics(self.data_validation_origin)
+[MFLOG|0|2024-04-04T04:40:42.698068Z|runtime|2cd42c53-b356-477f-886e-9b66f018b505]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/data_validation.py", line 150, in retrieve_data_validation_metrics
+[MFLOG|0|2024-04-04T04:40:42.698100Z|runtime|e73f1999-df76-41c0-907d-bf8762eec7b8]    query_job = client.query(DATA_VALIDATION_METRICS_QUERY)
+[MFLOG|0|2024-04-04T04:40:42.698125Z|runtime|10fe8c8e-6bfb-4ebe-a406-0a0d6da3c9bf]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/cloud/bigquery/client.py", line 3411, in query
+[MFLOG|0|2024-04-04T04:40:42.698151Z|runtime|1defc70d-e957-4103-af15-a56f29c3ed43]    return _job_helpers.query_jobs_insert(
+[MFLOG|0|2024-04-04T04:40:42.698181Z|runtime|ebf9d6d3-e42b-4307-be16-2e37c1ac72b3]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/cloud/bigquery/_job_helpers.py", line 114, in query_jobs_insert
+[MFLOG|0|2024-04-04T04:40:42.698212Z|runtime|bc340709-f10d-4d5f-90af-e5f2c06e500c]    future = do_query()
+[MFLOG|0|2024-04-04T04:40:42.698244Z|runtime|a5e65bdb-052a-4128-a1f0-d556324f06bc]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/cloud/bigquery/_job_helpers.py", line 91, in do_query
+[MFLOG|0|2024-04-04T04:40:42.698269Z|runtime|78a3e42f-8d0a-4259-9199-4a6e12ca3eeb]    query_job._begin(retry=retry, timeout=timeout)
+[MFLOG|0|2024-04-04T04:40:42.698299Z|runtime|7606bf2f-76ae-49aa-9c9c-bde6a453d23f]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/cloud/bigquery/job/query.py", line 1371, in _begin
+[MFLOG|0|2024-04-04T04:40:42.698330Z|runtime|27f1df9d-01b7-409d-a79c-11edbcde060c]    super(QueryJob, self)._begin(client=client, retry=retry, timeout=timeout)
+[MFLOG|0|2024-04-04T04:40:42.698362Z|runtime|de986a6d-9f9b-40ef-8c50-8e4750ff4337]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/cloud/bigquery/job/base.py", line 693, in _begin
+[MFLOG|0|2024-04-04T04:40:42.698393Z|runtime|65ba9728-56c4-4e9e-ac89-4fe197183a3f]    api_response = client._call_api(
+[MFLOG|0|2024-04-04T04:40:42.698425Z|runtime|d28574fa-be85-4372-80ee-7a0790a60fc2]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/cloud/bigquery/client.py", line 816, in _call_api
+[MFLOG|0|2024-04-04T04:40:42.698457Z|runtime|c9ca849c-dc25-4e23-875c-dedd86151185]    return call()
+[MFLOG|0|2024-04-04T04:40:42.698488Z|runtime|4131c5d1-1406-4f13-b8ee-2ed6edd34576]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[MFLOG|0|2024-04-04T04:40:42.698519Z|runtime|d6d753ce-142f-486e-8e82-17fb495e1ebb]    return retry_target(
+[MFLOG|0|2024-04-04T04:40:42.698549Z|runtime|ac5c52cd-b171-4d77-96d4-7a921814dad8]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[MFLOG|0|2024-04-04T04:40:42.698575Z|runtime|397cb6c7-5c1a-447b-83db-5540d271d074]    _retry_error_helper(
+[MFLOG|0|2024-04-04T04:40:42.698603Z|runtime|fc27fbdb-13c2-44d9-bc91-a03773cb86ae]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[MFLOG|0|2024-04-04T04:40:42.698632Z|runtime|1bd3c514-921c-4631-8af3-2be87d3428f2]    raise final_exc from source_exc
+[MFLOG|0|2024-04-04T04:40:42.698656Z|runtime|a9b44a4d-1bc0-4df1-ae16-e7e641b3a0e6]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[MFLOG|0|2024-04-04T04:40:42.698687Z|runtime|5c120f0f-9b5b-4e3c-afe7-5ed02bcc5abd]    result = target()
+[MFLOG|0|2024-04-04T04:40:42.698714Z|runtime|27552394-1cb1-4619-86a6-305ec58165e9]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[MFLOG|0|2024-04-04T04:40:42.698747Z|runtime|1c68879b-19de-4973-88c1-54fb0f8797f1]    response = self._make_request(
+[MFLOG|0|2024-04-04T04:40:42.698775Z|runtime|7a0f02dc-1c59-479f-aed7-e782e01ea0fc]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[MFLOG|0|2024-04-04T04:40:42.698799Z|runtime|7cd5ce13-bfea-415f-b054-574a807de2a4]    return self._do_request(
+[MFLOG|0|2024-04-04T04:40:42.698830Z|runtime|4b6bded2-a7b8-4a89-84f0-5e732cbbec6a]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[MFLOG|0|2024-04-04T04:40:42.698861Z|runtime|7643096c-ba5a-4a70-a61b-e8212033d26e]    return self.http.request(
+[MFLOG|0|2024-04-04T04:40:42.698893Z|runtime|2d25386a-7dfc-4d9a-af74-8ebc00c692a1]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/auth/transport/requests.py", line 537, in request
+[MFLOG|0|2024-04-04T04:40:42.698925Z|runtime|64709a00-5028-412f-8ba5-7b7820b76933]    self.credentials.before_request(auth_request, method, url, request_headers)
+[MFLOG|0|2024-04-04T04:40:42.698951Z|runtime|09828c4e-3c38-4d9f-8ba3-52a680ad9069]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/auth/credentials.py", line 228, in before_request
+[MFLOG|0|2024-04-04T04:40:42.698979Z|runtime|3b2002e7-35ed-4380-8867-a493fbc34f98]    self._blocking_refresh(request)
+[MFLOG|0|2024-04-04T04:40:42.699010Z|runtime|fe3445fd-ade9-4633-9af2-bd42ce8862da]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/auth/credentials.py", line 191, in _blocking_refresh
+[MFLOG|0|2024-04-04T04:40:42.699038Z|runtime|ce6bc5c6-d683-48ae-b4f4-0c602921a545]    self.refresh(request)
+[MFLOG|0|2024-04-04T04:40:42.699067Z|runtime|47051a31-75c3-45af-9fd4-591e805e2ea3]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/oauth2/credentials.py", line 430, in refresh
+[MFLOG|0|2024-04-04T04:40:42.699098Z|runtime|a0233f87-e164-4a2b-b1a0-943d2e46476a]    ) = reauth.refresh_grant(
+[MFLOG|0|2024-04-04T04:40:42.699130Z|runtime|1b8dde72-3450-48da-9946-235eb7599b7c]  File "/Users/chelseatroy/Library/Python/3.9/lib/python/site-packages/google/oauth2/reauth.py", line 348, in refresh_grant
+[MFLOG|0|2024-04-04T04:40:42.699160Z|runtime|ad015c6d-92f1-4c26-bc40-1889586239a4]    raise exceptions.RefreshError(
+[MFLOG|0|2024-04-04T04:40:42.699187Z|runtime|7aa0afa3-0964-46a3-bfb5-c26de7f36c11]google.auth.exceptions.RefreshError: Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate.
+[MFLOG|0|2024-04-04T04:40:42.699227Z|runtime|8766f0e7-3e36-4729-8b40-54116e9624b3]
+[MFLOG|0|2024-04-04T04:40:42.699879Z|runtime|877da533-0b25-43fe-b75d-cea51a79b030]Task failed.

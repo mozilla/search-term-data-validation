@@ -1,0 +1,65 @@
+{
+    "os": "macOS-13.6.1-arm64-arm-64bit",
+    "python": "3.11.6",
+    "heartbeatAt": "2024-01-03T16:07:15.445284",
+    "startedAt": "2024-01-03T16:07:14.954360",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--quiet",
+        "--metadata",
+        "local",
+        "--environment",
+        "local",
+        "--datastore",
+        "local",
+        "--event-logger",
+        "nullSidecarLogger",
+        "--monitor",
+        "nullSidecarMonitor",
+        "--datastore-root",
+        "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/.metaflow",
+        "step",
+        "end",
+        "--run-id",
+        "1704298024073696",
+        "--task-id",
+        "4",
+        "--input-paths",
+        "1704298024073696/record_results/3",
+        "--retry-count",
+        "0",
+        "--max-user-code-retries",
+        "0",
+        "--namespace",
+        "user:chelseatroy"
+    ],
+    "state": "running",
+    "program": "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py",
+    "codePathLocal": "main_flow.py",
+    "codePath": "jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py",
+    "git": {
+        "remote": "https://github.com/mozilla/docker-etl.git",
+        "commit": "a72703f9953ec5847f1f76960721d55573b11cfb"
+    },
+    "email": "chelsea.dommert@gmail.com",
+    "root": "/Users/chelseatroy/mozilla/docker-etl",
+    "host": "Chelseas-Air.attlocal.net",
+    "username": "chelseatroy",
+    "executable": "/usr/local/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 8.540096282958984
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

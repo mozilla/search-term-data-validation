@@ -1,0 +1,13 @@
+[MFLOG|0|2024-04-05T14:38:00.382996Z|runtime|b02842ff-f503-44d2-98c0-ae4b7866dc07]wandb: Currently logged in as: ctroy (moso). Use `wandb login --relogin` to force relogin
+[MFLOG|0|2024-04-05T14:38:00.891521Z|runtime|a1659bc2-e263-4806-aba5-4ee0c7edc899]wandb: wandb version 0.16.6 is available!  To upgrade, please run:
+[MFLOG|0|2024-04-05T14:38:00.892808Z|runtime|9f9f542d-24a2-4761-9402-d094d2aa73b4]wandb:  $ pip install wandb --upgrade
+[MFLOG|0|2024-04-05T14:38:00.892899Z|runtime|b3801cd6-97a1-48a6-a9d9-92793279f31b]wandb: Tracking run with wandb version 0.16.4
+[MFLOG|0|2024-04-05T14:38:00.892955Z|runtime|2025c0ac-f523-4a57-a072-53687f43dd0c]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240405_093800-olt77r26
+[MFLOG|0|2024-04-05T14:38:00.892999Z|runtime|98698941-3bba-4491-8f4d-e6e53241b655]wandb: Run `wandb offline` to turn off syncing.
+[MFLOG|0|2024-04-05T14:38:00.893075Z|runtime|0fbb73fe-2aae-42b8-9dff-9adf7b8044ed]wandb: Syncing run crusher-first-contact-3
+[MFLOG|0|2024-04-05T14:38:03.383472Z|runtime|559102b7-2507-4d9f-a33d-f56e76bd83c7]wandb: ⭐️ View project at https://wandb.ai/moso/instep-wandb-search-term-data-validation
+[MFLOG|0|2024-04-05T14:38:03.384217Z|runtime|2edbb626-5276-4ccb-b94a-e6d6d8f6db23]wandb: 🚀 View run at https://wandb.ai/moso/instep-wandb-search-term-data-validation/runs/olt77r26
+[MFLOG|0|2024-04-05T14:38:06.407538Z|runtime|ceed9dc7-3a53-4789-9eb4-2cbe2bd388a6]wandb: - 0.229 MB of 0.450 MB uploadedwandb: \ 0.229 MB of 0.450 MB uploadedwandb: | 0.450 MB of 0.450 MB uploadedwandb: / 0.450 MB of 0.456 MB uploadedwandb: 🚀 View run crusher-first-contact-3 at: https://wandb.ai/moso/instep-wandb-search-term-data-validation/runs/olt77r26
+[MFLOG|0|2024-04-05T14:38:06.408110Z|runtime|078ff7f4-cc6d-406b-b472-7056ce9f6ad4]wandb: ️⚡ View job at https://wandb.ai/moso/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NjA3NDQwNQ==/version_details/v0
+[MFLOG|0|2024-04-05T14:38:06.408274Z|runtime|30c8720c-aa93-47e0-a7af-8233eae174b6]wandb: Synced 6 W&B file(s), 1 media file(s), 1 artifact file(s) and 1 other file(s)
+[MFLOG|0|2024-04-05T14:38:06.408392Z|runtime|ebb04561-4bac-4208-9013-5cfeb8faab69]wandb: Find logs at: ./wandb/run-20240405_093800-olt77r26/logs

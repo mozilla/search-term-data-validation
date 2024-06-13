@@ -1,0 +1,219 @@
+2024-04-22 08:59:48,784 INFO    StreamThr :86504 [internal.py:wandb_internal():86] W&B internal server running at pid: 86504, started at: 2024-04-22 08:59:48.782430
+2024-04-22 08:59:48,789 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: status
+2024-04-22 08:59:48,791 INFO    WriterThread:86504 [datastore.py:open_for_write():87] open: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/run-z0604p5x.wandb
+2024-04-22 08:59:48,793 DEBUG   SenderThread:86504 [sender.py:send():382] send: header
+2024-04-22 08:59:48,817 DEBUG   SenderThread:86504 [sender.py:send():382] send: run
+2024-04-22 08:59:49,036 INFO    SenderThread:86504 [dir_watcher.py:__init__():211] watching files in: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files
+2024-04-22 08:59:49,036 INFO    SenderThread:86504 [sender.py:_start_run_threads():1136] run started: z0604p5x with start time 1713794388.783341
+2024-04-22 08:59:49,050 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: check_version
+2024-04-22 08:59:49,051 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: check_version
+2024-04-22 08:59:49,170 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: run_start
+2024-04-22 08:59:49,180 DEBUG   HandlerThread:86504 [system_info.py:__init__():27] System info init
+2024-04-22 08:59:49,181 DEBUG   HandlerThread:86504 [system_info.py:__init__():42] System info init done
+2024-04-22 08:59:49,181 INFO    HandlerThread:86504 [system_monitor.py:start():194] Starting system monitor
+2024-04-22 08:59:49,181 INFO    SystemMonitor:86504 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-22 08:59:49,181 INFO    HandlerThread:86504 [system_monitor.py:probe():214] Collecting system info
+2024-04-22 08:59:49,182 INFO    SystemMonitor:86504 [interfaces.py:start():190] Started cpu monitoring
+2024-04-22 08:59:49,182 DEBUG   HandlerThread:86504 [system_info.py:probe():151] Probing system
+2024-04-22 08:59:49,182 INFO    SystemMonitor:86504 [interfaces.py:start():190] Started disk monitoring
+2024-04-22 08:59:49,186 INFO    SystemMonitor:86504 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-22 08:59:49,190 INFO    SystemMonitor:86504 [interfaces.py:start():190] Started memory monitoring
+2024-04-22 08:59:49,191 INFO    SystemMonitor:86504 [interfaces.py:start():190] Started network monitoring
+2024-04-22 08:59:49,196 DEBUG   HandlerThread:86504 [system_info.py:_probe_git():136] Probing git
+2024-04-22 08:59:49,217 DEBUG   HandlerThread:86504 [system_info.py:_probe_git():144] Probing git done
+2024-04-22 08:59:49,217 DEBUG   HandlerThread:86504 [system_info.py:probe():199] Probing system done
+2024-04-22 08:59:49,217 DEBUG   HandlerThread:86504 [system_monitor.py:probe():223] {'os': 'macOS-13.6.1-arm64-arm-64bit', 'python': '3.9.6', 'heartbeatAt': '2024-04-22T13:59:49.182994', 'startedAt': '2024-04-22T13:59:48.769991', 'docker': None, 'cuda': None, 'args': ('--quiet', '--metadata', 'local', '--environment', 'local', '--datastore', 'local', '--event-logger', 'nullSidecarLogger', '--monitor', 'nullSidecarMonitor', '--datastore-root', '/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/.metaflow', 'step', 'end', '--run-id', '1713794377245425', '--task-id', '4', '--input-paths', '1713794377245425/record_results/3', '--retry-count', '0', '--max-user-code-retries', '0', '--namespace', 'user:chelseatroy'), 'state': 'running', 'program': '/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py', 'codePathLocal': 'main_flow.py', 'codePath': 'jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py', 'git': {'remote': 'https://github.com/mozilla/docker-etl.git', 'commit': '5b0e9d5fac297977e433376f03e7598c2a1b92b9'}, 'email': 'chelsea.dommert@gmail.com', 'root': '/Users/chelseatroy/mozilla/docker-etl', 'host': 'Chelseas-MacBook-Air.local', 'username': 'chelseatroy', 'executable': '/Library/Developer/CommandLineTools/usr/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 8.540096282958984}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-04-22 08:59:49,217 INFO    HandlerThread:86504 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-22 08:59:49,217 INFO    HandlerThread:86504 [system_monitor.py:probe():227] Publishing system info
+2024-04-22 08:59:49,217 DEBUG   HandlerThread:86504 [system_info.py:_save_code():45] Saving code
+2024-04-22 08:59:49,225 DEBUG   HandlerThread:86504 [system_info.py:_save_code():66] Saving code done
+2024-04-22 08:59:49,225 DEBUG   HandlerThread:86504 [system_info.py:_save_patches():83] Saving git patches
+2024-04-22 08:59:49,278 DEBUG   HandlerThread:86504 [system_info.py:_save_patches():125] Saving git patches done
+2024-04-22 08:59:49,278 INFO    HandlerThread:86504 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-22 08:59:49,280 DEBUG   SenderThread:86504 [sender.py:send():382] send: files
+2024-04-22 08:59:49,280 INFO    SenderThread:86504 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-04-22 08:59:49,280 INFO    SenderThread:86504 [sender.py:_save_file():1403] saving file code/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py with policy now
+2024-04-22 08:59:49,281 INFO    SenderThread:86504 [sender.py:_save_file():1403] saving file diff.patch with policy now
+2024-04-22 08:59:49,318 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-22 08:59:49,319 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: python_packages
+2024-04-22 08:59:49,319 DEBUG   SenderThread:86504 [sender.py:send():382] send: telemetry
+2024-04-22 08:59:49,319 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-22 08:59:49,319 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-22 08:59:49,319 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: stop_status
+2024-04-22 08:59:49,537 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: log_artifact
+2024-04-22 08:59:49,537 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: log_artifact
+2024-04-22 08:59:49,678 INFO    wandb-upload_0:86504 [upload_job.py:push():131] Uploaded file /var/folders/r7/7_r15vgx6n38wlfw3g8xz8t00000gn/T/tmpgy3yf331wandb/ye132sbi-wandb-metadata.json
+2024-04-22 08:59:49,678 INFO    wandb-upload_2:86504 [upload_job.py:push():131] Uploaded file /var/folders/r7/7_r15vgx6n38wlfw3g8xz8t00000gn/T/tmpgy3yf331wandb/2kckd6g4-diff.patch
+2024-04-22 08:59:49,692 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-22 08:59:49,717 INFO    wandb-upload_1:86504 [upload_job.py:push():131] Uploaded file /var/folders/r7/7_r15vgx6n38wlfw3g8xz8t00000gn/T/tmpgy3yf331wandb/9jaju3v5-code/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py
+2024-04-22 08:59:49,808 INFO    SenderThread:86504 [sender.py:send_request_log_artifact():1470] logged artifact run-z0604p5x-searchtermdatavalidationdf - {'id': 'QXJ0aWZhY3Q6ODA1NjgyNzEw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2NTM4MDg1NA==', 'latestArtifact': None}}
+2024-04-22 08:59:49,808 DEBUG   SenderThread:86504 [sender.py:send():382] send: files
+2024-04-22 08:59:49,808 INFO    SenderThread:86504 [sender.py:_save_file():1403] saving file media/table/search-term-data-validation-df_0_63e3f7ce31c37b9a2ed5.table.json with policy now
+2024-04-22 08:59:49,808 DEBUG   SenderThread:86504 [sender.py:send():382] send: history
+2024-04-22 08:59:49,809 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: summary_record
+2024-04-22 08:59:49,809 INFO    SenderThread:86504 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-04-22 08:59:49,809 DEBUG   SenderThread:86504 [sender.py:send():382] send: exit
+2024-04-22 08:59:49,809 INFO    SenderThread:86504 [sender.py:send_exit():589] handling exit code: 0
+2024-04-22 08:59:49,809 INFO    SenderThread:86504 [sender.py:send_exit():591] handling runtime: 0
+2024-04-22 08:59:49,810 INFO    SenderThread:86504 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-04-22 08:59:49,810 INFO    SenderThread:86504 [sender.py:send_exit():597] send defer
+2024-04-22 08:59:49,810 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:49,810 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-22 08:59:49,811 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:49,811 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-04-22 08:59:49,811 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 1
+2024-04-22 08:59:49,811 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:49,811 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-22 08:59:49,811 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:49,811 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-04-22 08:59:49,811 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 2
+2024-04-22 08:59:49,811 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:49,811 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-22 08:59:49,811 INFO    HandlerThread:86504 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-22 08:59:49,811 INFO    HandlerThread:86504 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-22 08:59:49,811 DEBUG   SystemMonitor:86504 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-22 08:59:49,811 DEBUG   SystemMonitor:86504 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-22 08:59:49,811 DEBUG   SystemMonitor:86504 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-22 08:59:49,811 INFO    HandlerThread:86504 [interfaces.py:finish():202] Joined disk monitor
+2024-04-22 08:59:49,870 INFO    HandlerThread:86504 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-22 08:59:49,870 INFO    HandlerThread:86504 [interfaces.py:finish():202] Joined memory monitor
+2024-04-22 08:59:49,870 INFO    HandlerThread:86504 [interfaces.py:finish():202] Joined network monitor
+2024-04-22 08:59:49,870 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:49,870 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-04-22 08:59:49,870 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 3
+2024-04-22 08:59:49,870 DEBUG   SenderThread:86504 [sender.py:send():382] send: telemetry
+2024-04-22 08:59:49,870 DEBUG   SenderThread:86504 [sender.py:send():382] send: stats
+2024-04-22 08:59:49,870 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:49,870 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-22 08:59:49,870 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:49,870 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-04-22 08:59:49,870 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 4
+2024-04-22 08:59:49,870 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:49,870 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-22 08:59:49,870 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:49,870 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-04-22 08:59:49,871 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 5
+2024-04-22 08:59:49,871 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:49,871 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-22 08:59:49,871 DEBUG   SenderThread:86504 [sender.py:send():382] send: summary
+2024-04-22 08:59:49,872 INFO    SenderThread:86504 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-04-22 08:59:49,872 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:49,872 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-04-22 08:59:49,872 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 6
+2024-04-22 08:59:49,872 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:49,872 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-22 08:59:49,872 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:49,872 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-04-22 08:59:49,874 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: status_report
+2024-04-22 08:59:49,948 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 7
+2024-04-22 08:59:49,948 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:49,948 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-22 08:59:49,948 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:49,948 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-04-22 08:59:50,039 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/config.yaml
+2024-04-22 08:59:50,039 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/diff.patch
+2024-04-22 08:59:50,039 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/wandb-summary.json
+2024-04-22 08:59:50,039 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/wandb-metadata.json
+2024-04-22 08:59:50,039 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/output.log
+2024-04-22 08:59:50,039 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/requirements.txt
+2024-04-22 08:59:50,039 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/code/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py
+2024-04-22 08:59:50,039 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/media/table/search-term-data-validation-df_0_63e3f7ce31c37b9a2ed5.table.json
+2024-04-22 08:59:50,040 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/code/jobs
+2024-04-22 08:59:50,040 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/code
+2024-04-22 08:59:50,040 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/code/jobs/search-term-data-validation-v2/search_term_data_validation_v2
+2024-04-22 08:59:50,040 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/media/table
+2024-04-22 08:59:50,040 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/media
+2024-04-22 08:59:50,040 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/code/jobs/search-term-data-validation-v2
+2024-04-22 08:59:50,099 INFO    wandb-upload_1:86504 [upload_job.py:push():131] Uploaded file /var/folders/r7/7_r15vgx6n38wlfw3g8xz8t00000gn/T/tmpgy3yf331wandb/47mbbc3c-media/table/search-term-data-validation-df_0_63e3f7ce31c37b9a2ed5.table.json
+2024-04-22 08:59:50,415 INFO    wandb-upload_2:86504 [upload_job.py:push():131] Uploaded file /var/folders/r7/7_r15vgx6n38wlfw3g8xz8t00000gn/T/tmpgy3yf331wandb/uut1ihe7-media/table/search-term-data-validation-df_0_63e3f7ce31c37b9a2ed5.table.json
+2024-04-22 08:59:50,707 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-22 08:59:51,817 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 8
+2024-04-22 08:59:51,817 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: poll_exit
+2024-04-22 08:59:51,817 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:51,818 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-22 08:59:51,820 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:51,820 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-04-22 08:59:51,820 INFO    SenderThread:86504 [job_builder.py:build():296] Attempting to build job artifact
+2024-04-22 08:59:51,822 INFO    SenderThread:86504 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-04-22 08:59:51,825 INFO    SenderThread:86504 [job_builder.py:build():402] adding wandb-job metadata file
+2024-04-22 08:59:51,830 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 9
+2024-04-22 08:59:51,831 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:51,831 DEBUG   SenderThread:86504 [sender.py:send():382] send: artifact
+2024-04-22 08:59:51,831 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-22 08:59:51,986 INFO    wandb-upload_0:86504 [upload_job.py:push():89] Uploaded file /Users/chelseatroy/Library/Application Support/wandb/artifacts/staging/tmp4z_w0n93
+2024-04-22 08:59:52,048 INFO    Thread-12 :86504 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/output.log
+2024-04-22 08:59:52,651 INFO    wandb-upload_1:86504 [upload_job.py:push():86] Skipped uploading /Users/chelseatroy/Library/Application Support/wandb/artifacts/staging/tmpi7gjfmvr
+2024-04-22 08:59:52,711 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-22 08:59:52,803 INFO    wandb-upload_0:86504 [upload_job.py:push():86] Skipped uploading /Users/chelseatroy/Library/Application Support/wandb/artifacts/staging/tmpixkdfxcj
+2024-04-22 08:59:52,960 INFO    wandb-upload_2:86504 [upload_job.py:push():89] Uploaded file /Users/chelseatroy/Library/Application Support/wandb/artifacts/staging/tmpjdktehmm
+2024-04-22 08:59:53,569 INFO    SenderThread:86504 [sender.py:send_artifact():1494] sent artifact job-https___github.com_mozilla_docker-etl.git_jobs_search-term-data-validation-v2_search_term_data_validation_v2_main_flow.py - {'id': 'QXJ0aWZhY3Q6ODA1NjgyNzQx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NjA3NDQwNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzk5MzQzNjE3', 'versionIndex': 2}}}
+2024-04-22 08:59:53,570 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:53,570 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-04-22 08:59:53,570 INFO    SenderThread:86504 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-22 08:59:54,060 INFO    SenderThread:86504 [dir_watcher.py:finish():388] scan: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files
+2024-04-22 08:59:54,061 INFO    SenderThread:86504 [dir_watcher.py:finish():402] scan save: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/diff.patch diff.patch
+2024-04-22 08:59:54,061 INFO    SenderThread:86504 [dir_watcher.py:finish():402] scan save: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/requirements.txt requirements.txt
+2024-04-22 08:59:54,061 INFO    SenderThread:86504 [dir_watcher.py:finish():402] scan save: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/output.log output.log
+2024-04-22 08:59:54,068 INFO    SenderThread:86504 [dir_watcher.py:finish():402] scan save: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/config.yaml config.yaml
+2024-04-22 08:59:54,076 INFO    SenderThread:86504 [dir_watcher.py:finish():402] scan save: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/wandb-summary.json wandb-summary.json
+2024-04-22 08:59:54,077 INFO    SenderThread:86504 [dir_watcher.py:finish():402] scan save: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/wandb-metadata.json wandb-metadata.json
+2024-04-22 08:59:54,079 INFO    SenderThread:86504 [dir_watcher.py:finish():402] scan save: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/code/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py code/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py
+2024-04-22 08:59:54,080 INFO    SenderThread:86504 [dir_watcher.py:finish():402] scan save: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/media/table/search-term-data-validation-df_0_63e3f7ce31c37b9a2ed5.table.json media/table/search-term-data-validation-df_0_63e3f7ce31c37b9a2ed5.table.json
+2024-04-22 08:59:54,080 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 10
+2024-04-22 08:59:54,081 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: poll_exit
+2024-04-22 08:59:54,087 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:54,088 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-22 08:59:54,097 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:54,098 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-04-22 08:59:54,098 INFO    SenderThread:86504 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-22 08:59:54,314 INFO    wandb-upload_0:86504 [upload_job.py:push():131] Uploaded file /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/config.yaml
+2024-04-22 08:59:54,384 INFO    wandb-upload_2:86504 [upload_job.py:push():131] Uploaded file /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/output.log
+2024-04-22 08:59:54,384 INFO    wandb-upload_3:86504 [upload_job.py:push():131] Uploaded file /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/wandb-summary.json
+2024-04-22 08:59:54,546 INFO    wandb-upload_1:86504 [upload_job.py:push():131] Uploaded file /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/files/requirements.txt
+2024-04-22 08:59:54,721 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-22 08:59:54,723 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: poll_exit
+2024-04-22 08:59:54,751 INFO    Thread-11 :86504 [sender.py:transition_state():617] send defer: 11
+2024-04-22 08:59:54,752 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:54,752 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-22 08:59:54,753 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:54,753 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-04-22 08:59:54,753 INFO    SenderThread:86504 [file_pusher.py:join():178] waiting for file pusher
+2024-04-22 08:59:54,755 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 12
+2024-04-22 08:59:54,756 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:54,756 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-22 08:59:54,756 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:54,756 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-04-22 08:59:54,756 INFO    SenderThread:86504 [file_stream.py:finish():595] file stream finish called
+2024-04-22 08:59:54,804 INFO    SenderThread:86504 [file_stream.py:finish():599] file stream finish is done
+2024-04-22 08:59:54,804 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 13
+2024-04-22 08:59:54,804 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:54,804 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-22 08:59:54,804 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:54,805 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-04-22 08:59:54,805 INFO    SenderThread:86504 [sender.py:transition_state():617] send defer: 14
+2024-04-22 08:59:54,805 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: defer
+2024-04-22 08:59:54,805 INFO    HandlerThread:86504 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-22 08:59:54,805 DEBUG   SenderThread:86504 [sender.py:send():382] send: final
+2024-04-22 08:59:54,805 DEBUG   SenderThread:86504 [sender.py:send():382] send: footer
+2024-04-22 08:59:54,805 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: defer
+2024-04-22 08:59:54,805 INFO    SenderThread:86504 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-04-22 08:59:54,806 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-22 08:59:54,806 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: poll_exit
+2024-04-22 08:59:54,806 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-22 08:59:54,807 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: poll_exit
+2024-04-22 08:59:54,807 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: server_info
+2024-04-22 08:59:54,807 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: server_info
+2024-04-22 08:59:54,809 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-22 08:59:54,809 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-22 08:59:54,809 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-22 08:59:54,810 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: job_info
+2024-04-22 08:59:54,859 DEBUG   SenderThread:86504 [sender.py:send_request():409] send_request: job_info
+2024-04-22 08:59:54,860 INFO    MainThread:86504 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-04-22 08:59:54,860 INFO    MainThread:86504 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-04-22 08:59:54,860 INFO    MainThread:86504 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-04-22 08:59:54,861 DEBUG   HandlerThread:86504 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-22 08:59:54,861 INFO    HandlerThread:86504 [handler.py:finish():869] shutting down handler
+2024-04-22 08:59:55,814 INFO    WriterThread:86504 [datastore.py:close():296] close: /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x/run-z0604p5x.wandb
+2024-04-22 08:59:55,860 INFO    SenderThread:86504 [sender.py:finish():1572] shutting down sender
+2024-04-22 08:59:55,860 INFO    SenderThread:86504 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-22 08:59:55,861 INFO    SenderThread:86504 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,81 @@
+[MFLOG|0|2023-12-18T20:15:17.466530Z|runtime|f8c52b75-543b-4fbe-934f-cc7fc715e10b]<flow SearchTermDataValidationFlow step retrieve_metrics> failed:
+[MFLOG|0|2023-12-18T20:15:17.472219Z|runtime|0cdfd452-5b11-425d-a81a-a17b245cd100]    Internal error
+[MFLOG|0|2023-12-18T20:15:17.474181Z|runtime|1d17fc28-99cf-4408-ae80-7de9850ac74a]Traceback (most recent call last):
+[MFLOG|0|2023-12-18T20:15:17.474237Z|runtime|00fb1cc8-bd86-4d99-a45a-0849b622c027]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/cli.py", line 1175, in main
+[MFLOG|0|2023-12-18T20:15:17.474326Z|runtime|7eb44813-fd56-4259-b413-dc2c7afd0ccb]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2023-12-18T20:15:17.474378Z|runtime|577fc990-a946-4225-9aba-9dc483024422]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2023-12-18T20:15:17.474426Z|runtime|7f37f25c-4ebd-4514-87b2-d84222905dec]    return func(args, kwargs)
+[MFLOG|0|2023-12-18T20:15:17.586203Z|runtime|574f0b61-9854-463d-908a-b1faa0f23d90]           ^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.586335Z|runtime|501c2b9f-da6d-4ae6-bfb8-a3eaa0650e11]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2023-12-18T20:15:17.586366Z|runtime|7f4294a1-9a66-468a-942a-ee7f12be3007]    return self.main(args, kwargs)
+[MFLOG|0|2023-12-18T20:15:17.586394Z|runtime|6e93d6ad-05e4-43da-89d5-b6a1acebba07]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.586418Z|runtime|4f72f900-6a9f-4a69-a324-e0b15c9f546a]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2023-12-18T20:15:17.586444Z|runtime|2597eb95-e336-46ab-97f0-1a545f4aa54e]    rv = self.invoke(ctx)
+[MFLOG|0|2023-12-18T20:15:17.586468Z|runtime|f1fa7539-e26c-4d16-b5ba-f67e93115fad]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.586492Z|runtime|741aeb96-89e2-499f-a9eb-55420a50ac64]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2023-12-18T20:15:17.586511Z|runtime|5abdc1db-befa-4ed6-8c37-43ac92e51dea]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2023-12-18T20:15:17.586530Z|runtime|43ef02f1-6cf8-4f66-a5fb-6626bebad063]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.586546Z|runtime|362ce91a-cb92-406e-b511-a2a283d45377]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2023-12-18T20:15:17.586563Z|runtime|52f3e831-be6a-4038-aa1e-54522f042d95]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2023-12-18T20:15:17.586578Z|runtime|3a719e82-b19f-4831-8ad0-f18ace71fdbe]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.586598Z|runtime|636f1448-a1bd-410c-b36c-1723826daadc]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2023-12-18T20:15:17.586613Z|runtime|a49ebc55-e8eb-46b7-a616-fed40f4276ef]    return callback(args, kwargs)
+[MFLOG|0|2023-12-18T20:15:17.587949Z|runtime|4d53c0e7-4074-4bc3-9ca0-4dfe7c6769f0]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.587999Z|runtime|8ae6bc93-10bb-4f54-bcdd-810f7642323a]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2023-12-18T20:15:17.588022Z|runtime|6b37045d-030b-497c-8beb-f5e6ec7d628c]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2023-12-18T20:15:17.588040Z|runtime|8167aa88-3a3d-4fc0-9cee-085887829a78]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.588056Z|runtime|365422b3-a396-4b21-8d64-26e6892e3048]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/cli.py", line 582, in step
+[MFLOG|0|2023-12-18T20:15:17.588072Z|runtime|bb5b410b-767b-442d-b7be-3612ada201e1]    task.run_step(
+[MFLOG|0|2023-12-18T20:15:17.588211Z|runtime|3361cc74-3069-4fa7-ab10-09f7c16202fb]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/task.py", line 596, in run_step
+[MFLOG|0|2023-12-18T20:15:17.588233Z|runtime|612cbeea-f8c1-4a25-8f9c-cca5c104e50f]    self._exec_step_function(step_func)
+[MFLOG|0|2023-12-18T20:15:17.588250Z|runtime|1688d257-2413-45ae-80f1-92edf0e79a5a]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/metaflow/task.py", line 57, in _exec_step_function
+[MFLOG|0|2023-12-18T20:15:17.588267Z|runtime|6377c2a7-e08f-4a06-8eb2-df7d766f7d30]    step_function()
+[MFLOG|0|2023-12-18T20:15:17.588287Z|runtime|deb7c731-f997-405f-bcdf-be635506604e]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py", line 39, in retrieve_metrics
+[MFLOG|0|2023-12-18T20:15:17.588306Z|runtime|6afddf9a-92c0-4c1c-b5d3-830645741d2e]    self.validation_df = retrieve_data_validation_metrics(self.data_validation_origin)
+[MFLOG|0|2023-12-18T20:15:17.588323Z|runtime|8a31a708-8f84-45ac-9c95-9167a7b68fd4]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.588345Z|runtime|14c6b271-3ad5-48e9-a8cb-bacaa969f1b7]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/data_validation.py", line 150, in retrieve_data_validation_metrics
+[MFLOG|0|2023-12-18T20:15:17.588366Z|runtime|7e25f8f6-8e25-4cbc-b0b8-5a536ac369a1]    query_job = client.query(DATA_VALIDATION_METRICS_QUERY)
+[MFLOG|0|2023-12-18T20:15:17.588384Z|runtime|9851e0d3-8cdb-4c69-a8d3-63c9d45a28f5]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.588402Z|runtime|9b8caf56-9a65-4139-9c03-e1d1010d01a3]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/cloud/bigquery/client.py", line 3387, in query
+[MFLOG|0|2023-12-18T20:15:17.588418Z|runtime|3d87b3bf-2d26-4933-bb22-3309527eeddf]    return _job_helpers.query_jobs_insert(
+[MFLOG|0|2023-12-18T20:15:17.588435Z|runtime|119b6921-07a1-47ed-8551-2701916c964b]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.588686Z|runtime|ed16577a-fd50-4234-8196-28eb16d766cd]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/cloud/bigquery/_job_helpers.py", line 158, in query_jobs_insert
+[MFLOG|0|2023-12-18T20:15:17.588712Z|runtime|4fd7385b-fecf-4d56-bdf4-59e08b6c9507]    future = do_query()
+[MFLOG|0|2023-12-18T20:15:17.588728Z|runtime|2dac5229-0bab-4080-ada9-3cea234100e5]             ^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.588745Z|runtime|7967b3ae-cd25-480b-8207-ce5ffeb56c56]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/cloud/bigquery/_job_helpers.py", line 135, in do_query
+[MFLOG|0|2023-12-18T20:15:17.588765Z|runtime|61b1a2d5-f3b6-455c-963b-716e747dd896]    query_job._begin(retry=retry, timeout=timeout)
+[MFLOG|0|2023-12-18T20:15:17.588787Z|runtime|64993af3-9909-4a2e-b483-bc6bdb144094]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/cloud/bigquery/job/query.py", line 1379, in _begin
+[MFLOG|0|2023-12-18T20:15:17.588806Z|runtime|9685a1c7-a043-4e5d-bc66-70d2bf4a9c56]    super(QueryJob, self)._begin(client=client, retry=retry, timeout=timeout)
+[MFLOG|0|2023-12-18T20:15:17.588825Z|runtime|1da47451-bcf3-46ac-bc3a-0a092482e00a]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/cloud/bigquery/job/base.py", line 723, in _begin
+[MFLOG|0|2023-12-18T20:15:17.588840Z|runtime|fc19603a-b654-4d0a-aeae-3774ad24bc51]    api_response = client._call_api(
+[MFLOG|0|2023-12-18T20:15:17.588856Z|runtime|8cdadee6-1060-449e-a8c7-108f78e4e617]                   ^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.588872Z|runtime|be61e362-d716-418d-84ee-135786ddc30e]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/cloud/bigquery/client.py", line 818, in _call_api
+[MFLOG|0|2023-12-18T20:15:17.589020Z|runtime|8e6d0aa6-7758-4cbc-b209-c0e460ff9668]    return call()
+[MFLOG|0|2023-12-18T20:15:17.589040Z|runtime|f27fb229-3712-4342-a153-87bf128ac864]           ^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.589062Z|runtime|93ba20e8-af36-40ac-a2d4-fe9d74b5b03a]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/api_core/retry.py", line 372, in retry_wrapped_func
+[MFLOG|0|2023-12-18T20:15:17.589077Z|runtime|d2788feb-7bad-4c1c-927e-6f0d1f5cda48]    return retry_target(
+[MFLOG|0|2023-12-18T20:15:17.589093Z|runtime|6d4a562c-210e-4cef-a718-e3e35bc5e232]           ^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.589109Z|runtime|518203ae-6fc6-4f10-8864-570167ab97fe]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/api_core/retry.py", line 207, in retry_target
+[MFLOG|0|2023-12-18T20:15:17.589126Z|runtime|819c8fe9-fb86-4023-9d7c-f68fe5d44682]    result = target()
+[MFLOG|0|2023-12-18T20:15:17.589144Z|runtime|311a4b82-195e-4bc8-b4d5-a50d242444c8]             ^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.589163Z|runtime|e6b237e5-918e-46b9-98a4-61096190fd05]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[MFLOG|0|2023-12-18T20:15:17.589178Z|runtime|3058c47d-0417-40aa-9b47-d3d420423042]    response = self._make_request(
+[MFLOG|0|2023-12-18T20:15:17.589192Z|runtime|0d96680d-2ce3-47e0-b2ae-6144f33277c3]               ^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.589331Z|runtime|c55ee08a-239d-498c-93bc-5b8d1d035e6d]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[MFLOG|0|2023-12-18T20:15:17.589349Z|runtime|22bb6f7f-d07b-4733-bf3a-94047976c723]    return self._do_request(
+[MFLOG|0|2023-12-18T20:15:17.589366Z|runtime|54517928-a08f-43dc-82a4-8bc2775510e4]           ^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.589381Z|runtime|5f3d94b9-2a40-4979-b43f-14c7af8de2c5]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[MFLOG|0|2023-12-18T20:15:17.589397Z|runtime|e3484f51-2e60-434d-88b0-38ac69b61811]    return self.http.request(
+[MFLOG|0|2023-12-18T20:15:17.589414Z|runtime|3c02bd03-3928-4b9a-896e-d9e4e640a46a]           ^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.589433Z|runtime|a88a580c-6d8b-4d19-b38a-90caf33b8fce]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/auth/transport/requests.py", line 537, in request
+[MFLOG|0|2023-12-18T20:15:17.589450Z|runtime|61557357-6c58-47ee-883d-8ecc2a451198]    self.credentials.before_request(auth_request, method, url, request_headers)
+[MFLOG|0|2023-12-18T20:15:17.589466Z|runtime|4a47397b-1c0c-4466-9fc9-3d09e30c421a]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/auth/credentials.py", line 175, in before_request
+[MFLOG|0|2023-12-18T20:15:17.589485Z|runtime|7c163e35-c040-42bc-86ff-d26a4f03035b]    self.refresh(request)
+[MFLOG|0|2023-12-18T20:15:17.589501Z|runtime|844dffa2-4220-4162-8a1e-486952a87a6e]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 391, in refresh
+[MFLOG|0|2023-12-18T20:15:17.591063Z|runtime|3059e08e-1964-4b15-b371-d64ab8f4bf57]    ) = reauth.refresh_grant(
+[MFLOG|0|2023-12-18T20:15:17.591083Z|runtime|f73dd11c-0104-4619-8de3-3b7d77278340]        ^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-18T20:15:17.591099Z|runtime|c35c7998-898e-406d-b139-e2aedc72ed6d]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/stdvv2-venv/lib/python3.11/site-packages/google/oauth2/reauth.py", line 348, in refresh_grant
+[MFLOG|0|2023-12-18T20:15:17.591120Z|runtime|1ba8918d-7885-4043-b298-a3aed07c0a29]    raise exceptions.RefreshError(
+[MFLOG|0|2023-12-18T20:15:17.591135Z|runtime|d7d1f4db-648f-4237-a1f8-c639297fdf01]google.auth.exceptions.RefreshError: Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate.
+[MFLOG|0|2023-12-18T20:15:17.591155Z|runtime|b2ce90ea-dbd9-4a0b-986a-d51d83d14d55]
+[MFLOG|0|2023-12-18T20:15:17.591486Z|runtime|de3c4e1e-2c11-4651-96ab-54f62d3847bc]Task failed.

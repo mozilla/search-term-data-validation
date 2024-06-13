@@ -1,0 +1,13 @@
+[MFLOG|0|2024-01-22T23:42:20.580194Z|runtime|fb58f06f-20d1-4c3f-a70a-5d66417c112b]wandb: Currently logged in as: ctroy (moz-translations). Use `wandb login --relogin` to force relogin
+[MFLOG|0|2024-01-22T23:42:21.162597Z|runtime|dafda496-4a77-4154-a8be-b40505be5fb1]wandb: wandb version 0.16.2 is available!  To upgrade, please run:
+[MFLOG|0|2024-01-22T23:42:21.162717Z|runtime|ac8fb7a5-fc1d-4d75-9077-2ff2d2bffc3b]wandb:  $ pip install wandb --upgrade
+[MFLOG|0|2024-01-22T23:42:21.162747Z|runtime|5dd30d48-5dc5-46af-a647-fb38fd7b1c72]wandb: Tracking run with wandb version 0.16.1
+[MFLOG|0|2024-01-22T23:42:21.162792Z|runtime|4a67985c-dca3-4e8b-835d-30a42a640fab]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240122_174220-5vhgdhaf
+[MFLOG|0|2024-01-22T23:42:21.163771Z|runtime|5a83fb71-66f0-4d8a-bbc7-83ef58952902]wandb: Run `wandb offline` to turn off syncing.
+[MFLOG|0|2024-01-22T23:42:21.163804Z|runtime|0534e4c8-e574-4d43-a7d9-72fde4910952]wandb: Syncing run misty-elevator-6
+[MFLOG|0|2024-01-22T23:42:23.480232Z|runtime|43614ade-e4ed-4edc-bb3a-2663fcc7420b]wandb: ⭐️ View project at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation
+[MFLOG|0|2024-01-22T23:42:23.480885Z|runtime|641090ef-d2b8-4944-b621-6c2a72775c37]wandb: 🚀 View run at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/runs/5vhgdhaf
+[MFLOG|0|2024-01-22T23:42:25.575597Z|runtime|a189bf4f-952c-4a92-930d-94c3cfa6912e]wandb: - 0.203 MB of 0.399 MB uploadedwandb: \ 0.203 MB of 0.399 MB uploadedwandb: | 0.203 MB of 0.399 MB uploadedwandb: / 0.203 MB of 0.399 MB uploadedwandb: 🚀 View run misty-elevator-6 at: https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/runs/5vhgdhaf
+[MFLOG|0|2024-01-22T23:42:25.576170Z|runtime|9a919bc4-cb65-411d-a90d-2e4340300090]wandb: ️⚡ View job at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEyODcyNzc0Nw==/version_details/v1
+[MFLOG|0|2024-01-22T23:42:25.576289Z|runtime|1461ded4-8864-4815-91a7-1d5613d66a91]wandb: Synced 6 W&B file(s), 1 media file(s), 1 artifact file(s) and 1 other file(s)
+[MFLOG|0|2024-01-22T23:42:25.576384Z|runtime|4de4b8bc-b333-470c-9e93-dfec72074a53]wandb: Find logs at: ./wandb/run-20240122_174220-5vhgdhaf/logs

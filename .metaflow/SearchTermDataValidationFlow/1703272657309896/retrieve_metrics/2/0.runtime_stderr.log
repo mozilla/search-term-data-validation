@@ -1,0 +1,53 @@
+[MFLOG|0|2023-12-22T19:17:42.997353Z|runtime|463e89fb-e854-4fd7-b86c-56b2529b0869]<flow SearchTermDataValidationFlow step retrieve_metrics> failed:
+[MFLOG|0|2023-12-22T19:17:43.016511Z|runtime|a8686477-a7c1-4297-b73b-dd482b73e798]    Internal error
+[MFLOG|0|2023-12-22T19:17:43.019559Z|runtime|f21a7201-9f17-409b-8f50-fdf76bd32caa]Traceback (most recent call last):
+[MFLOG|0|2023-12-22T19:17:43.019699Z|runtime|e1fd7838-bacd-43ba-ba89-71fa6a49657e]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/bigquery/_pandas_helpers.py", line 41, in <module>
+[MFLOG|0|2023-12-22T19:17:43.019841Z|runtime|16b37e44-2e08-4cb8-ab81-a779db93c882]    import db_dtypes  # type: ignore
+[MFLOG|0|2023-12-22T19:17:43.019956Z|runtime|d234254d-467d-4f70-91af-9f6a753b007d]    ^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.020022Z|runtime|07ad0f27-abae-4a52-bdba-39e59ff23992]ModuleNotFoundError: No module named 'db_dtypes'
+[MFLOG|0|2023-12-22T19:17:43.020185Z|runtime|7d3f83b7-92e7-45fc-951f-5b8994d93b56]
+[MFLOG|0|2023-12-22T19:17:43.020279Z|runtime|07d8ac65-c9c3-4d1a-8b09-387edd1859b9]The above exception was the direct cause of the following exception:
+[MFLOG|0|2023-12-22T19:17:43.020336Z|runtime|f7d1f6cc-05c0-43dd-ad73-e760adb43bc5]
+[MFLOG|0|2023-12-22T19:17:43.020391Z|runtime|60fcc69a-1f45-4839-aaaf-9871575b3c3a]Traceback (most recent call last):
+[MFLOG|0|2023-12-22T19:17:43.020436Z|runtime|81e87083-34f5-4f0c-a7a9-3a85c033e12f]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/cli.py", line 1175, in main
+[MFLOG|0|2023-12-22T19:17:43.020536Z|runtime|c17f5b3e-020e-4e50-9a4e-bf57313cae0d]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2023-12-22T19:17:43.020579Z|runtime|12e324d4-b82a-48a4-891c-e955ac6bb4b9]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2023-12-22T19:17:43.020637Z|runtime|cf9d8f40-3311-4038-a02f-cd384946149f]    return func(args, kwargs)
+[MFLOG|0|2023-12-22T19:17:43.139681Z|runtime|783cf0d7-ce67-4c4d-b762-4054f99159d8]           ^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.139863Z|runtime|a5c04e8c-1f34-449c-82d9-9f0453d93aa5]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2023-12-22T19:17:43.139898Z|runtime|4f7614a7-9d04-4e63-bf40-4886b867d1a5]    return self.main(args, kwargs)
+[MFLOG|0|2023-12-22T19:17:43.139925Z|runtime|b5398c7e-7097-48ae-a4b1-c96ec151f20e]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.139948Z|runtime|688d8383-7840-4cff-bc72-167f025c0b21]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2023-12-22T19:17:43.139967Z|runtime|b7c9c36a-229f-48f5-899d-9a601778244c]    rv = self.invoke(ctx)
+[MFLOG|0|2023-12-22T19:17:43.139989Z|runtime|a646500e-75a8-445f-9e69-959320f82c09]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.140006Z|runtime|8b99818d-2b5e-44b8-8dce-e0703c3172bc]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2023-12-22T19:17:43.140036Z|runtime|a4f39179-5600-4d16-8d48-260f857ff588]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2023-12-22T19:17:43.140071Z|runtime|0e4cab5e-2ef6-46b4-8528-ecb2eff01bb5]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.140093Z|runtime|8abb79ec-ae2e-427c-b6d1-8e266f315471]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2023-12-22T19:17:43.140115Z|runtime|550b687f-5f51-41ac-9259-fee182076a18]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2023-12-22T19:17:43.140137Z|runtime|b0eee803-b544-4958-a74a-7d3895288e15]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.140160Z|runtime|ef09d039-1f07-4186-a9fa-e0d080e3d2ab]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2023-12-22T19:17:43.140182Z|runtime|bd09b7c6-c0db-4040-a9ef-8445c3bcec80]    return callback(args, kwargs)
+[MFLOG|0|2023-12-22T19:17:43.140203Z|runtime|eff07310-8c66-4b84-b3d3-a6be60a2a1f2]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.140224Z|runtime|f984f75d-98cd-468f-922c-599eb2434b9e]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2023-12-22T19:17:43.140240Z|runtime|a52eaa78-8e65-4c83-8011-99738c10773d]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2023-12-22T19:17:43.140260Z|runtime|5dd98f31-843b-4efe-990f-0ae043611526]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.140280Z|runtime|7348a003-c375-49f7-a98d-0de65e77b92c]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/cli.py", line 582, in step
+[MFLOG|0|2023-12-22T19:17:43.140296Z|runtime|b17d9e77-7522-472e-b5fb-ae6ea9e57377]    task.run_step(
+[MFLOG|0|2023-12-22T19:17:43.140321Z|runtime|5e534420-afe0-418a-8a9e-ee4ff110d205]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/task.py", line 596, in run_step
+[MFLOG|0|2023-12-22T19:17:43.140337Z|runtime|b7177620-30af-4d9d-b2a4-7c7f54123967]    self._exec_step_function(step_func)
+[MFLOG|0|2023-12-22T19:17:43.140354Z|runtime|c7cd7745-6db1-4da1-b3da-e49034b20cff]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/task.py", line 57, in _exec_step_function
+[MFLOG|0|2023-12-22T19:17:43.140369Z|runtime|54089899-0db5-4221-bad2-5e22d57ac94e]    step_function()
+[MFLOG|0|2023-12-22T19:17:43.140388Z|runtime|3a27eaa0-ded6-4fa3-b89e-dcde820799de]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py", line 39, in retrieve_metrics
+[MFLOG|0|2023-12-22T19:17:43.140403Z|runtime|ae41a6fd-11f0-4558-a1f1-e46f0ad79236]    self.validation_df = retrieve_data_validation_metrics(self.data_validation_origin)
+[MFLOG|0|2023-12-22T19:17:43.140428Z|runtime|fac84b4f-268e-48ac-8cac-1bd5ac65cc80]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.140444Z|runtime|670dfd8c-a7f6-4ea9-8e4a-5b8df947ec93]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/data_validation.py", line 151, in retrieve_data_validation_metrics
+[MFLOG|0|2023-12-22T19:17:43.140462Z|runtime|7f439aba-6dc1-4cbe-9f4c-ce3931666a9c]    results_as_dataframe = query_job.result().to_dataframe()
+[MFLOG|0|2023-12-22T19:17:43.140477Z|runtime|d4ae495c-d5de-4c8f-9933-d47007afedc2]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:17:43.140496Z|runtime|9dd0a6cd-5fd7-4883-9450-78122984eae7]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/bigquery/table.py", line 2177, in to_dataframe
+[MFLOG|0|2023-12-22T19:17:43.140525Z|runtime|74b2f4cb-065d-4ee8-8499-5c1bd4f4a36e]    _pandas_helpers.verify_pandas_imports()
+[MFLOG|0|2023-12-22T19:17:43.140543Z|runtime|58c20343-98b8-43ec-b31e-47aed51d9fb5]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/bigquery/_pandas_helpers.py", line 968, in verify_pandas_imports
+[MFLOG|0|2023-12-22T19:17:43.140560Z|runtime|487bd78f-a8a4-475f-a800-50a01774e301]    raise ValueError(_NO_DB_TYPES_ERROR) from db_dtypes_import_exception
+[MFLOG|0|2023-12-22T19:17:43.140575Z|runtime|16af74ba-5d68-41aa-8c60-d16503dd0ea4]ValueError: Please install the 'db-dtypes' package to use this function.
+[MFLOG|0|2023-12-22T19:17:43.140590Z|runtime|732427b4-8f96-46da-b546-73aaecf610dc]
+[MFLOG|0|2023-12-22T19:17:43.141108Z|runtime|914e6192-3699-4d31-91ea-fe25c8b09618]Task failed.

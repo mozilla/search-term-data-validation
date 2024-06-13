@@ -1,0 +1,38 @@
+[MFLOG|0|2023-12-22T19:18:12.136642Z|runtime|750e30f6-8682-4170-ac4d-4d46ccae8b36]<flow SearchTermDataValidationFlow step end> failed:
+[MFLOG|0|2023-12-22T19:18:12.139338Z|runtime|e12d23fd-6003-4eb1-b576-7f5ca7dd9fb4]    Internal error
+[MFLOG|0|2023-12-22T19:18:12.140827Z|runtime|c60b1d6d-1bf4-48bc-8fc2-995df9a1a73e]Traceback (most recent call last):
+[MFLOG|0|2023-12-22T19:18:12.140866Z|runtime|f315336e-5ddb-4576-8c84-4caa04649ce4]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/cli.py", line 1175, in main
+[MFLOG|0|2023-12-22T19:18:12.140900Z|runtime|c4c09c4e-b07e-467d-8db2-e08edee58bbc]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2023-12-22T19:18:12.140925Z|runtime|35bf6b57-5498-4d9c-a129-9d1abd11308a]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2023-12-22T19:18:12.140949Z|runtime|df2e72bc-7e20-4ab5-b91c-c5d750f45483]    return func(args, kwargs)
+[MFLOG|0|2023-12-22T19:18:12.202099Z|runtime|6fd232df-b881-4e0b-91a0-f0d56f7f523f]           ^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:18:12.202222Z|runtime|bef39072-9634-4a8a-b6e7-7d23c87cf614]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2023-12-22T19:18:12.202254Z|runtime|7ee012ab-239b-4cfb-bc5e-dbc9e342027b]    return self.main(args, kwargs)
+[MFLOG|0|2023-12-22T19:18:12.202280Z|runtime|e2522134-460a-43c5-bf35-97b166df0367]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:18:12.202308Z|runtime|4d5aa141-a751-43a6-b3ad-812b6a1ae00d]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2023-12-22T19:18:12.202331Z|runtime|152cb375-5456-424b-8c32-8ff884f93706]    rv = self.invoke(ctx)
+[MFLOG|0|2023-12-22T19:18:12.202352Z|runtime|cf5f73eb-f454-472e-abcf-00d9e9abe0b3]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:18:12.202370Z|runtime|f23566c4-aa3c-4086-b143-61b01b746493]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2023-12-22T19:18:12.202387Z|runtime|0d0f9e41-4ccc-45ac-a852-896634b4d1a7]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2023-12-22T19:18:12.202405Z|runtime|5f4647d6-c26f-425b-9e55-fd0dbeac2f1e]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:18:12.202423Z|runtime|686b6139-a644-4c62-9a80-826219dacde0]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2023-12-22T19:18:12.202440Z|runtime|bcd50612-756f-4eb7-89de-eeb6eb403502]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2023-12-22T19:18:12.202460Z|runtime|dafba7ba-98c1-49a8-9fed-e4df1b0b3bad]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:18:12.202476Z|runtime|9159f139-b7e1-4ff3-8f94-1e6dbd7c603d]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2023-12-22T19:18:12.202492Z|runtime|fdf229e1-ab0c-479c-add3-9442045329e2]    return callback(args, kwargs)
+[MFLOG|0|2023-12-22T19:18:12.202512Z|runtime|fad893d4-8f1b-49b1-bc42-0768f476e101]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:18:12.202533Z|runtime|02c950bd-a8fd-4a9c-99c9-890c8ba9f66a]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2023-12-22T19:18:12.202554Z|runtime|00e07b37-954d-4ec7-82c5-e2d4ab0b6cdf]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2023-12-22T19:18:12.202569Z|runtime|0fddf1b9-7b1a-4675-88aa-68080a4522eb]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:18:12.202584Z|runtime|a122b87d-ef07-4084-a327-67bf42f6e03b]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/cli.py", line 582, in step
+[MFLOG|0|2023-12-22T19:18:12.202604Z|runtime|02f762d6-07f3-42f4-860b-d3dafbf270d2]    task.run_step(
+[MFLOG|0|2023-12-22T19:18:12.202621Z|runtime|709860bd-6932-4bf6-8912-4d75ade6c4ec]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/task.py", line 596, in run_step
+[MFLOG|0|2023-12-22T19:18:12.202638Z|runtime|ea373427-afc6-41d9-9e84-81ef164b949f]    self._exec_step_function(step_func)
+[MFLOG|0|2023-12-22T19:18:12.202654Z|runtime|930051a6-4570-46ab-b41c-2f6d5e20a841]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/task.py", line 57, in _exec_step_function
+[MFLOG|0|2023-12-22T19:18:12.202673Z|runtime|138104d1-acf9-4a0e-ab7a-5dae16c7dbe3]    step_function()
+[MFLOG|0|2023-12-22T19:18:12.202691Z|runtime|ca3c5cd6-0cb0-4ce3-a776-b2fb4fb79f4f]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py", line 62, in end
+[MFLOG|0|2023-12-22T19:18:12.202707Z|runtime|c3059bcc-dc68-4266-86d7-2a036ef11e15]    run = wandb.init(
+[MFLOG|0|2023-12-22T19:18:12.202723Z|runtime|63591a0b-1115-44f7-a85c-57b0d0ba5f09]          ^^^^^^^^^^
+[MFLOG|0|2023-12-22T19:18:12.202742Z|runtime|08620294-c6c5-4957-b10f-984929ae8ea0]AttributeError: module 'wandb' has no attribute 'init'
+[MFLOG|0|2023-12-22T19:18:12.202758Z|runtime|8355807a-a1a4-422f-8dc3-868aa07108c0]
+[MFLOG|0|2023-12-22T19:18:12.203108Z|runtime|ec77f4b3-3e0d-4b60-82ff-57599d86af86]Task failed.

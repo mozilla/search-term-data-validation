@@ -1,0 +1,1 @@
+{"flow_id": "SearchTermDataValidationFlow", "run_number": "1705603342970269", "step_name": "record_results", "task_id": "3", "field_name": "ds-root", "type": "ds-root", "value": "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/.metaflow", "tags": ["attempt_id:0"], "user_name": "chelseatroy", "ts_epoch": 1705603354075}

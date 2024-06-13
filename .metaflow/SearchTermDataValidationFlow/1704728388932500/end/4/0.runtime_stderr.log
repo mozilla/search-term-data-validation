@@ -1,0 +1,11 @@
+[MFLOG|0|2024-01-08T15:39:58.872050Z|runtime|3ba4f8fe-876d-4985-bd7e-e2b1f5029404]wandb: Currently logged in as: ctroy (mlops-mozilla). Use `wandb login --relogin` to force relogin
+[MFLOG|0|2024-01-08T15:39:59.475300Z|runtime|4a507844-bdb7-4e15-bfa4-1a387d348e71]wandb: Tracking run with wandb version 0.16.1
+[MFLOG|0|2024-01-08T15:39:59.475415Z|runtime|fb89ac37-71b5-4119-8f18-d4067d17b7df]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240108_093958-w6dr5lfm
+[MFLOG|0|2024-01-08T15:39:59.476476Z|runtime|9f43d6c1-1c3a-41ce-8fc1-9fb002d3b3c5]wandb: Run `wandb offline` to turn off syncing.
+[MFLOG|0|2024-01-08T15:39:59.476556Z|runtime|47547c32-875c-457a-aa97-41a22065df4d]wandb: Syncing run sleek-paper-33
+[MFLOG|0|2024-01-08T15:40:01.767783Z|runtime|b792c910-f58e-46c6-90c2-72a529ba571e]wandb: ⭐️ View project at https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation
+[MFLOG|0|2024-01-08T15:40:01.768183Z|runtime|952e05ca-d019-4100-bb0b-96f1f82d3f9f]wandb: 🚀 View run at https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation/runs/w6dr5lfm
+[MFLOG|0|2024-01-08T15:40:04.901602Z|runtime|ed07c71c-23ac-48ba-956f-f9a1b0d8160f]wandb: - 0.198 MB of 0.390 MB uploadedwandb: \ 0.198 MB of 0.390 MB uploadedwandb: | 0.198 MB of 0.390 MB uploadedwandb: / 0.198 MB of 0.390 MB uploadedwandb: - 0.198 MB of 0.390 MB uploadedwandb: 🚀 View run sleek-paper-33 at: https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation/runs/w6dr5lfm
+[MFLOG|0|2024-01-08T15:40:04.901998Z|runtime|2a0d967b-2bf3-419f-99f9-7fa6cb87becb]wandb: ️⚡ View job at https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNjA2Nzc3Mw==/version_details/v5
+[MFLOG|0|2024-01-08T15:40:04.902129Z|runtime|3c606e9c-7bcc-4368-a0cf-ffbd38d23f9c]wandb: Synced 6 W&B file(s), 1 media file(s), 1 artifact file(s) and 1 other file(s)
+[MFLOG|0|2024-01-08T15:40:04.902240Z|runtime|d9b42044-62cf-449b-83f7-04d47e1b9adc]wandb: Find logs at: ./wandb/run-20240108_093958-w6dr5lfm/logs

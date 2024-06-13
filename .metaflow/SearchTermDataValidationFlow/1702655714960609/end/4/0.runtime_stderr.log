@@ -1,0 +1,11 @@
+[MFLOG|0|2023-12-15T15:55:21.659381Z|runtime|2fa1e2da-11db-4cda-9cec-b3d92c41dcf6]wandb: Currently logged in as: ctroy (mlops-mozilla). Use `wandb login --relogin` to force relogin
+[MFLOG|0|2023-12-15T15:55:22.196468Z|runtime|6f428588-b2a8-4f40-97c1-9564b890e8a8]wandb: Tracking run with wandb version 0.16.1
+[MFLOG|0|2023-12-15T15:55:22.196580Z|runtime|4a83b312-0820-4300-adda-f107f92de8fe]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20231215_095521-y0fap6xc
+[MFLOG|0|2023-12-15T15:55:22.197804Z|runtime|084b47a1-172b-4b9c-915c-f0a11e13905b]wandb: Run `wandb offline` to turn off syncing.
+[MFLOG|0|2023-12-15T15:55:22.197855Z|runtime|8baf6829-8f2b-4ea9-86b9-d1c3caab4110]wandb: Syncing run eager-cloud-28
+[MFLOG|0|2023-12-15T15:55:24.550382Z|runtime|d65160f6-2f77-4dda-8676-907b49f86f68]wandb: ⭐️ View project at https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation
+[MFLOG|0|2023-12-15T15:55:24.551294Z|runtime|4a38fbcb-54b6-468f-90c6-f45c8af08fc4]wandb: 🚀 View run at https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation/runs/y0fap6xc
+[MFLOG|0|2023-12-15T15:55:28.570184Z|runtime|c769d988-abd5-4ba8-9f03-97bd04379f68]wandb: - 0.190 MB of 0.374 MB uploadedwandb: \ 0.190 MB of 0.374 MB uploadedwandb: | 0.190 MB of 0.374 MB uploadedwandb: / 0.190 MB of 0.374 MB uploadedwandb: - 0.190 MB of 0.374 MB uploadedwandb: 🚀 View run eager-cloud-28 at: https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation/runs/y0fap6xc
+[MFLOG|0|2023-12-15T15:55:28.570985Z|runtime|6bf1ad5c-d867-4e46-926d-c28e3e939fa5]wandb: ️⚡ View job at https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNjA2Nzc3Mw==/version_details/v4
+[MFLOG|0|2023-12-15T15:55:28.571125Z|runtime|dfa22475-6675-461d-acfb-d5fd6628e854]wandb: Synced 6 W&B file(s), 1 media file(s), 4 artifact file(s) and 1 other file(s)
+[MFLOG|0|2023-12-15T15:55:28.571222Z|runtime|2520162b-88df-4501-80d5-70d5369b25c1]wandb: Find logs at: ./wandb/run-20231215_095521-y0fap6xc/logs

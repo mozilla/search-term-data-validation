@@ -1,0 +1,43 @@
+[MFLOG|0|2024-04-22T13:59:44.661842Z|runtime|89681c19-c217-418b-80fc-49fa686398d6]Input Dataframe Shape: (657, 9)
+[MFLOG|0|2024-04-22T13:59:44.662199Z|runtime|d917ac72-82ee-435d-9872-4f3d6037e92f]Recording validation results...
+[MFLOG|0|2024-04-22T13:59:44.662246Z|runtime|316447dd-97d0-4ec3-8a8b-31cc0e07ef7d]Recording validation results to destination table: mozdata.search_terms_unsanitized_analysis.prototype_data_validation_reports_v1
+[MFLOG|0|2024-04-22T13:59:45.136425Z|runtime|6ab8ce8f-3067-4ad3-b349-3d8b5c6c02f4]Performing range check for metric: pct_sanitized_search_terms
+[MFLOG|0|2024-04-22T13:59:45.143361Z|runtime|cd5c34d0-b9b0-4773-b940-39be5b1fa6e9]Completed range check for metric: pct_sanitized_search_terms
+[MFLOG|0|2024-04-22T13:59:45.143466Z|runtime|f4a5631a-4f3d-4c6d-929a-6a8cbed9aad5]Performing mean check for metric: pct_sanitized_search_terms
+[MFLOG|0|2024-04-22T13:59:45.146414Z|runtime|cfd95eeb-aea8-4afc-b7a2-65e8b1bf237d]Completed mean check for metric: pct_sanitized_search_terms
+[MFLOG|0|2024-04-22T13:59:45.964445Z|runtime|5e87af7c-3d82-4d87-8af5-2080393ac2ae]Data validation results recorded successfully!
+[MFLOG|0|2024-04-22T13:59:45.976511Z|runtime|0504c617-f4e3-478d-a9a0-53147c7ad256]Performing range check for metric: pct_sanitized_contained_at
+[MFLOG|0|2024-04-22T13:59:45.976949Z|runtime|7d62d0e4-4ad5-4c4b-bf18-65ac2c7e1022]Completed range check for metric: pct_sanitized_contained_at
+[MFLOG|0|2024-04-22T13:59:45.982972Z|runtime|49c3ac9e-e31a-4740-aa27-d88acee8b7ad]Performing mean check for metric: pct_sanitized_contained_at
+[MFLOG|0|2024-04-22T13:59:45.983180Z|runtime|f18d75e8-d927-431e-8c26-af33475796da]Completed mean check for metric: pct_sanitized_contained_at
+[MFLOG|0|2024-04-22T13:59:46.084465Z|runtime|ac365c3e-70df-48c6-bf1d-18eae31c1099]Data validation results recorded successfully!
+[MFLOG|0|2024-04-22T13:59:46.088716Z|runtime|87237180-9319-4683-831f-173cd86b06d0]Performing range check for metric: pct_sanitized_contained_numbers
+[MFLOG|0|2024-04-22T13:59:46.088868Z|runtime|23761f82-fae0-462b-b103-f55eca5bb589]Completed range check for metric: pct_sanitized_contained_numbers
+[MFLOG|0|2024-04-22T13:59:46.092240Z|runtime|b6495c7f-4e84-4729-a8ff-cb80240a7304]Performing mean check for metric: pct_sanitized_contained_numbers
+[MFLOG|0|2024-04-22T13:59:46.092308Z|runtime|0451e74d-1f24-409f-ae7b-a91b91bd7077]Completed mean check for metric: pct_sanitized_contained_numbers
+[MFLOG|0|2024-04-22T13:59:46.195044Z|runtime|2e7b838b-7b4d-4b39-a8dd-df919bc1769a]Data validation results recorded successfully!
+[MFLOG|0|2024-04-22T13:59:46.199818Z|runtime|d178d31a-9869-46c8-b84b-eb52b6ccec02]Performing range check for metric: pct_sanitized_contained_name
+[MFLOG|0|2024-04-22T13:59:46.199935Z|runtime|bbcfaa7d-0ae3-49b1-be12-f75663613e89]Completed range check for metric: pct_sanitized_contained_name
+[MFLOG|0|2024-04-22T13:59:46.204080Z|runtime|f3511a0d-b753-4745-b462-d3dee083b80c]Performing mean check for metric: pct_sanitized_contained_name
+[MFLOG|0|2024-04-22T13:59:46.204155Z|runtime|836977f9-142d-4cc6-bdf0-81495bb750ad]Completed mean check for metric: pct_sanitized_contained_name
+[MFLOG|0|2024-04-22T13:59:46.298173Z|runtime|b2ee25a0-0427-4ec1-9f1a-3f0968acf4b8]Data validation results recorded successfully!
+[MFLOG|0|2024-04-22T13:59:46.302842Z|runtime|a3e303f1-951b-4043-92f5-7ed5d5035359]Performing range check for metric: pct_terms_containing_us_census_surname
+[MFLOG|0|2024-04-22T13:59:46.303091Z|runtime|d7eaf7e2-e377-4fd1-8aa4-8605a7baeaef]Completed range check for metric: pct_terms_containing_us_census_surname
+[MFLOG|0|2024-04-22T13:59:46.306869Z|runtime|b5f0014d-09dd-4e72-9242-791ab1fb9a6b]Performing mean check for metric: pct_terms_containing_us_census_surname
+[MFLOG|0|2024-04-22T13:59:46.306955Z|runtime|0ab454d9-b736-4288-8cb3-1b3a5a267368]Completed mean check for metric: pct_terms_containing_us_census_surname
+[MFLOG|0|2024-04-22T13:59:46.410607Z|runtime|ade59b28-9227-4e0a-9e72-b2dbee7c0797]Data validation results recorded successfully!
+[MFLOG|0|2024-04-22T13:59:46.413155Z|runtime|4917d7f5-5da8-4bcf-b60d-ad82e771bb31]Performing range check for metric: pct_uppercase_chars_all_search_terms
+[MFLOG|0|2024-04-22T13:59:46.413221Z|runtime|dba76a05-d9b1-4d79-9591-c9689602cc34]Completed range check for metric: pct_uppercase_chars_all_search_terms
+[MFLOG|0|2024-04-22T13:59:46.415741Z|runtime|1c4baed8-8df9-40d8-8c43-a457f083c535]Performing mean check for metric: pct_uppercase_chars_all_search_terms
+[MFLOG|0|2024-04-22T13:59:46.415790Z|runtime|effd6562-6c33-43a9-8c3f-6bb1d46c17f1]Completed mean check for metric: pct_uppercase_chars_all_search_terms
+[MFLOG|0|2024-04-22T13:59:46.526999Z|runtime|e670d5e9-d494-483f-98e8-6327a0a29b8a]Data validation results recorded successfully!
+[MFLOG|0|2024-04-22T13:59:46.530307Z|runtime|3080155f-538c-4b38-9888-7a7d3c43444c]Performing range check for metric: avg_words_all_search_terms
+[MFLOG|0|2024-04-22T13:59:46.530379Z|runtime|7e946b95-063c-4293-8e02-444a69ed1d2f]Completed range check for metric: avg_words_all_search_terms
+[MFLOG|0|2024-04-22T13:59:46.533666Z|runtime|7110522f-3f63-4320-9c6e-a3c4f63d4a42]Performing mean check for metric: avg_words_all_search_terms
+[MFLOG|0|2024-04-22T13:59:46.533726Z|runtime|4eb91875-54b9-4466-946b-5a05486905a8]Completed mean check for metric: avg_words_all_search_terms
+[MFLOG|0|2024-04-22T13:59:46.637196Z|runtime|c3139a86-7c64-4cd9-81f1-184a5d54c70c]Data validation results recorded successfully!
+[MFLOG|0|2024-04-22T13:59:46.641195Z|runtime|713db455-d48c-47ea-ad7c-a26f3c6c0459]Performing range check for metric: pct_terms_non_english
+[MFLOG|0|2024-04-22T13:59:46.641279Z|runtime|966db697-c7bc-4c33-b9cc-81490c2b77eb]Completed range check for metric: pct_terms_non_english
+[MFLOG|0|2024-04-22T13:59:46.645112Z|runtime|951feed4-c3a2-4643-9b81-9725af1d3c0b]Performing mean check for metric: pct_terms_non_english
+[MFLOG|0|2024-04-22T13:59:46.645194Z|runtime|7f1df43a-cd8c-4818-a17e-1b6dbace4914]Completed mean check for metric: pct_terms_non_english
+[MFLOG|0|2024-04-22T13:59:46.739179Z|runtime|8bf74d75-dc50-43e9-9de5-c6ce90648713]Data validation results recorded successfully!

@@ -1,0 +1,13 @@
+[MFLOG|0|2024-01-26T19:14:38.791990Z|runtime|0b1e1065-cd2c-4814-a9fe-fc7c60412264]wandb: Currently logged in as: ctroy (moz-translations). Use `wandb login --relogin` to force relogin
+[MFLOG|0|2024-01-26T19:14:40.459957Z|runtime|154b5c2c-8a8e-44a1-8aa7-f0767365fdf0]wandb: wandb version 0.16.2 is available!  To upgrade, please run:
+[MFLOG|0|2024-01-26T19:14:40.462019Z|runtime|c2d7063b-67b6-42fd-9a74-eabb19ffe138]wandb:  $ pip install wandb --upgrade
+[MFLOG|0|2024-01-26T19:14:40.462127Z|runtime|91bb52e3-e21d-457c-9c8f-06c895a421e6]wandb: Tracking run with wandb version 0.16.1
+[MFLOG|0|2024-01-26T19:14:40.462188Z|runtime|a43979d7-af59-4ab2-b388-e3f898118996]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240126_131438-dikf3i3a
+[MFLOG|0|2024-01-26T19:14:40.462241Z|runtime|04b93e06-779a-4836-b2b3-7d8a108a1ec4]wandb: Run `wandb offline` to turn off syncing.
+[MFLOG|0|2024-01-26T19:14:40.462267Z|runtime|8491a7bf-dff7-43af-8419-009aa388b08f]wandb: Syncing run northern-surf-8
+[MFLOG|0|2024-01-26T19:14:47.876006Z|runtime|59079353-9045-4b88-91ea-ff118c4f14a0]wandb: ⭐️ View project at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation
+[MFLOG|0|2024-01-26T19:14:47.877659Z|runtime|743c645a-51ae-4bb2-837a-a0cd7df611c6]wandb: 🚀 View run at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/runs/dikf3i3a
+[MFLOG|0|2024-01-26T19:14:47.878011Z|runtime|134f6488-14c0-4d40-bf60-c437c770b751]wandb: 🚀 View run northern-surf-8 at: https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/runs/dikf3i3a
+[MFLOG|0|2024-01-26T19:14:49.848490Z|runtime|2a3ea22d-3b83-4556-bd69-fbb9a1d4de5f]wandb: ️⚡ View job at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEyODcyNzc0Nw==/version_details/v1
+[MFLOG|0|2024-01-26T19:14:49.848888Z|runtime|03d01e0b-0378-4726-9a53-d0256b3cd033]wandb: Synced 6 W&B file(s), 1 media file(s), 1 artifact file(s) and 1 other file(s)
+[MFLOG|0|2024-01-26T19:14:49.848943Z|runtime|67d073ea-0e18-4ab0-8967-d6da3ec6b8ad]wandb: Find logs at: ./wandb/run-20240126_131438-dikf3i3a/logs

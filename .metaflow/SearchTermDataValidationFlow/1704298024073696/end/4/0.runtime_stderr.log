@@ -1,0 +1,11 @@
+[MFLOG|0|2024-01-03T16:07:14.952751Z|runtime|7d58c4a2-5be6-48b8-b41f-dd87304b8fb4]wandb: Currently logged in as: ctroy (mlops-mozilla). Use `wandb login --relogin` to force relogin
+[MFLOG|0|2024-01-03T16:07:15.556048Z|runtime|554eca18-3f1b-48d0-ac9b-99bfa6ccc5ec]wandb: Tracking run with wandb version 0.16.1
+[MFLOG|0|2024-01-03T16:07:15.556143Z|runtime|228d1c0a-4b18-4f82-bda5-c730f578f469]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240103_100714-axhniwp6
+[MFLOG|0|2024-01-03T16:07:15.557411Z|runtime|5d83352f-b7ba-4e28-acb7-d75897c9dbb1]wandb: Run `wandb offline` to turn off syncing.
+[MFLOG|0|2024-01-03T16:07:15.557488Z|runtime|23dc935c-f94d-416d-8a4a-ac2d705e318e]wandb: Syncing run autumn-waterfall-32
+[MFLOG|0|2024-01-03T16:07:19.914396Z|runtime|5c89c99f-cc23-4639-b2e3-2a2106932a96]wandb: ⭐️ View project at https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation
+[MFLOG|0|2024-01-03T16:07:19.914789Z|runtime|b188303f-059f-4fe4-975b-96f0af43bcad]wandb: 🚀 View run at https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation/runs/axhniwp6
+[MFLOG|0|2024-01-03T16:07:19.915115Z|runtime|f7aae369-f037-4102-9f04-82c287dc20bd]wandb: 🚀 View run autumn-waterfall-32 at: https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation/runs/axhniwp6
+[MFLOG|0|2024-01-03T16:07:21.945044Z|runtime|9f50f7a0-bdbb-4095-a5ac-26b2241f05e3]wandb: ️⚡ View job at https://wandb.ai/mlops-mozilla/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNjA2Nzc3Mw==/version_details/v5
+[MFLOG|0|2024-01-03T16:07:21.945205Z|runtime|87cbff71-6ad6-47f0-9780-2ba93f21ba9a]wandb: Synced 6 W&B file(s), 1 media file(s), 1 artifact file(s) and 1 other file(s)
+[MFLOG|0|2024-01-03T16:07:21.945253Z|runtime|a1f7f0d0-9433-4a0f-ab97-caf6d491fa8f]wandb: Find logs at: ./wandb/run-20240103_100714-axhniwp6/logs

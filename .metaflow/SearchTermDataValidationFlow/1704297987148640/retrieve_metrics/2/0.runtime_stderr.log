@@ -1,0 +1,81 @@
+[MFLOG|0|2024-01-03T16:06:29.689247Z|runtime|2b7a0fcf-f8b9-4bba-8c08-c92218115684]<flow SearchTermDataValidationFlow step retrieve_metrics> failed:
+[MFLOG|0|2024-01-03T16:06:29.694566Z|runtime|6032e277-dfd3-427a-ad06-1929ff0d322e]    Internal error
+[MFLOG|0|2024-01-03T16:06:29.696474Z|runtime|24b10c19-3f97-43a9-bc1d-de0d2123827b]Traceback (most recent call last):
+[MFLOG|0|2024-01-03T16:06:29.696591Z|runtime|08122b97-9a12-4faa-bc39-b4521b694427]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/cli.py", line 1175, in main
+[MFLOG|0|2024-01-03T16:06:29.696751Z|runtime|edde133f-fd1a-48ad-a41b-df115a8f2ae9]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2024-01-03T16:06:29.696832Z|runtime|a3c9e3dd-0ec6-46b9-aec9-8f1131357e5c]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2024-01-03T16:06:29.696888Z|runtime|d919af22-29f0-4665-b1a1-af6bcec1a546]    return func(args, kwargs)
+[MFLOG|0|2024-01-03T16:06:29.813368Z|runtime|6f65935d-9450-4da6-8f13-5195c717c887]           ^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.813517Z|runtime|672c87ca-4282-4f53-9dfd-18b8333208e3]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2024-01-03T16:06:29.813561Z|runtime|4438fb2b-7b38-43db-9840-eb0334a8f1d3]    return self.main(args, kwargs)
+[MFLOG|0|2024-01-03T16:06:29.813595Z|runtime|ea327265-db8e-4745-b8da-6c2c8e7eab86]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.813614Z|runtime|71b3f24c-ae9f-48d9-86bd-5f9bb176a8c6]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2024-01-03T16:06:29.813637Z|runtime|0f980bf0-8478-4a69-80a3-1b007d319d65]    rv = self.invoke(ctx)
+[MFLOG|0|2024-01-03T16:06:29.813662Z|runtime|ecf6985c-fdf4-4c03-ad78-52a3b9f6165f]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.813681Z|runtime|23339c2b-74e7-46e7-af52-f0d082745b3e]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2024-01-03T16:06:29.813699Z|runtime|b63d9821-f07e-4f63-9988-a1eead48267d]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2024-01-03T16:06:29.813722Z|runtime|f017cd93-ac6d-4289-9737-f5eb4e515ca5]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.813743Z|runtime|1d0a0d14-0213-494f-ae1e-56ee82c7a631]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2024-01-03T16:06:29.813760Z|runtime|305b2147-62a3-473c-adf0-8ceb82a3c4dd]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2024-01-03T16:06:29.813778Z|runtime|be66b237-fcd0-472b-8242-c39c3f044e13]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.813794Z|runtime|61eb725b-55b2-4600-9347-76fc0a7f191c]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2024-01-03T16:06:29.813814Z|runtime|5797b6f1-c887-4711-ae17-9f597677ccc3]    return callback(args, kwargs)
+[MFLOG|0|2024-01-03T16:06:29.813838Z|runtime|78664cb8-2659-4484-b90e-1537f78146ff]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.813855Z|runtime|ad4b74c6-ccab-4ebf-947c-dd9f2fd67942]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2024-01-03T16:06:29.813873Z|runtime|0a103a9a-f5c1-4579-86c1-a8c044e05326]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2024-01-03T16:06:29.813890Z|runtime|0a414ad9-a6c2-4ffc-86c1-2f7c59c08f85]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.813908Z|runtime|785942df-c484-43ac-bb3d-754d4a07bba0]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/cli.py", line 582, in step
+[MFLOG|0|2024-01-03T16:06:29.813926Z|runtime|ff6a6a1f-698d-4db8-81e5-0aa5dbcfd319]    task.run_step(
+[MFLOG|0|2024-01-03T16:06:29.813946Z|runtime|1e1fe4b7-a6a2-4cdf-9f2a-1073cc24f8ba]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/task.py", line 596, in run_step
+[MFLOG|0|2024-01-03T16:06:29.813975Z|runtime|5c93f854-9c60-43e5-b0c5-71628d2dcd13]    self._exec_step_function(step_func)
+[MFLOG|0|2024-01-03T16:06:29.813996Z|runtime|33953613-1317-4001-af54-83c5340454a3]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/metaflow/task.py", line 57, in _exec_step_function
+[MFLOG|0|2024-01-03T16:06:29.814018Z|runtime|a3ac57b8-e8a7-484b-b1e3-cec7f245653a]    step_function()
+[MFLOG|0|2024-01-03T16:06:29.814036Z|runtime|41d2da72-8b47-4745-beac-0b52626f638f]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py", line 39, in retrieve_metrics
+[MFLOG|0|2024-01-03T16:06:29.814052Z|runtime|48ae4ad8-68c9-4f07-9b0a-82a8abe3c6fd]    self.validation_df = retrieve_data_validation_metrics(self.data_validation_origin)
+[MFLOG|0|2024-01-03T16:06:29.814068Z|runtime|d11e5f43-a231-4564-8443-cb55a0c95db4]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814089Z|runtime|34f08c7d-15b1-462c-972b-c8317b881e81]  File "/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/data_validation.py", line 150, in retrieve_data_validation_metrics
+[MFLOG|0|2024-01-03T16:06:29.814129Z|runtime|2b9cff72-026b-418c-b322-64e8de5d0bd4]    query_job = client.query(DATA_VALIDATION_METRICS_QUERY)
+[MFLOG|0|2024-01-03T16:06:29.814148Z|runtime|b4a52aff-8992-45d7-bd71-7313ff7b40f8]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814164Z|runtime|d94cab5b-ba22-4bb7-893f-a2126624e3a3]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/bigquery/client.py", line 3387, in query
+[MFLOG|0|2024-01-03T16:06:29.814179Z|runtime|88bc8f55-2c7a-464b-b00a-cf0701e8118e]    return _job_helpers.query_jobs_insert(
+[MFLOG|0|2024-01-03T16:06:29.814194Z|runtime|9cdc500b-86d0-4439-8638-2f025b38c986]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814209Z|runtime|0d4bd66e-18c2-49b5-92af-921169d872e6]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/bigquery/_job_helpers.py", line 158, in query_jobs_insert
+[MFLOG|0|2024-01-03T16:06:29.814263Z|runtime|84918e09-9275-4fc6-b964-95468bf67b32]    future = do_query()
+[MFLOG|0|2024-01-03T16:06:29.814298Z|runtime|b975adc4-2832-4273-82bd-95f20de787b1]             ^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814323Z|runtime|8c09569a-959b-47a0-85f5-368bfe4317aa]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/bigquery/_job_helpers.py", line 135, in do_query
+[MFLOG|0|2024-01-03T16:06:29.814342Z|runtime|06b2e9b5-b2c1-4f0e-92d7-c94dbaacac46]    query_job._begin(retry=retry, timeout=timeout)
+[MFLOG|0|2024-01-03T16:06:29.814363Z|runtime|a143e8ae-7713-4709-86fa-88a8b5bebd6a]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/bigquery/job/query.py", line 1379, in _begin
+[MFLOG|0|2024-01-03T16:06:29.814379Z|runtime|bd66227b-1fc8-4faf-9e7c-28725605ef72]    super(QueryJob, self)._begin(client=client, retry=retry, timeout=timeout)
+[MFLOG|0|2024-01-03T16:06:29.814400Z|runtime|90a37b57-db94-4f31-9dcd-0b06753d713e]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/bigquery/job/base.py", line 723, in _begin
+[MFLOG|0|2024-01-03T16:06:29.814422Z|runtime|8e414413-9394-4ac6-8fb3-e36d34d4c36b]    api_response = client._call_api(
+[MFLOG|0|2024-01-03T16:06:29.814440Z|runtime|813ab691-d284-4c88-a55b-4f2265208d1f]                   ^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814457Z|runtime|56bbbe91-2998-416d-ad69-8a46b8c9968f]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/bigquery/client.py", line 818, in _call_api
+[MFLOG|0|2024-01-03T16:06:29.814474Z|runtime|1e3e4b8c-34d9-4356-9185-966a1fb09753]    return call()
+[MFLOG|0|2024-01-03T16:06:29.814494Z|runtime|89886d76-9158-433b-8de4-1180cd03086a]           ^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814513Z|runtime|249bbd1f-a9b0-4903-bbf6-3751f9bfbe5a]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/api_core/retry.py", line 372, in retry_wrapped_func
+[MFLOG|0|2024-01-03T16:06:29.814529Z|runtime|06b72874-ad01-40a8-8a9b-396b1095f73c]    return retry_target(
+[MFLOG|0|2024-01-03T16:06:29.814546Z|runtime|522a698e-fe6c-4829-8fc9-9659814d8ca9]           ^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814562Z|runtime|c3c4e3f5-c9ee-4a10-91a3-d18a10a66897]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/api_core/retry.py", line 207, in retry_target
+[MFLOG|0|2024-01-03T16:06:29.814578Z|runtime|57cf0f59-970b-40e7-94a1-5d9e420d05e7]    result = target()
+[MFLOG|0|2024-01-03T16:06:29.814593Z|runtime|70e19b84-21b5-4122-a5e7-26bd0368ced3]             ^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814609Z|runtime|bc90948c-a488-481a-834a-d1b4e70372c5]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[MFLOG|0|2024-01-03T16:06:29.814629Z|runtime|1ab307e2-67c7-4212-b44c-d039726226e5]    response = self._make_request(
+[MFLOG|0|2024-01-03T16:06:29.814645Z|runtime|717c2c4f-8a85-4d4b-bd6f-eb6a36b8c6b5]               ^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814662Z|runtime|1633e3cc-0619-43b0-b899-06959cde3333]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[MFLOG|0|2024-01-03T16:06:29.814678Z|runtime|a187e75c-8bdc-454d-b64f-0e63bdad5371]    return self._do_request(
+[MFLOG|0|2024-01-03T16:06:29.814695Z|runtime|57a58c15-aed8-49f3-8bee-2e86d48f1b00]           ^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814712Z|runtime|1e698cc3-92c2-4d19-b3c1-65acf3a6b335]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[MFLOG|0|2024-01-03T16:06:29.814732Z|runtime|434e06e2-4184-4c5f-9f36-cd90c1844c09]    return self.http.request(
+[MFLOG|0|2024-01-03T16:06:29.814747Z|runtime|ad45c22a-846e-47a8-8263-b0f27200176a]           ^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814763Z|runtime|4738f172-27c0-4e21-a5a0-01b6d5c32958]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/auth/transport/requests.py", line 537, in request
+[MFLOG|0|2024-01-03T16:06:29.814778Z|runtime|65bbff96-07fb-4c1e-af0a-1dd6f5ae0fca]    self.credentials.before_request(auth_request, method, url, request_headers)
+[MFLOG|0|2024-01-03T16:06:29.814795Z|runtime|450075a3-dd1b-4e3d-bb0d-dbd42947fb32]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/auth/credentials.py", line 175, in before_request
+[MFLOG|0|2024-01-03T16:06:29.814812Z|runtime|0185ac76-e9d6-43b4-8d6b-273e38e716c8]    self.refresh(request)
+[MFLOG|0|2024-01-03T16:06:29.814827Z|runtime|66e8b86d-e3c1-45fb-a8c8-9112719eb943]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/oauth2/credentials.py", line 391, in refresh
+[MFLOG|0|2024-01-03T16:06:29.814842Z|runtime|dd31f92b-899e-42d5-8a18-2a051f109c25]    ) = reauth.refresh_grant(
+[MFLOG|0|2024-01-03T16:06:29.814862Z|runtime|a5e7361d-9b52-483d-ad8e-60374ecb2452]        ^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2024-01-03T16:06:29.814879Z|runtime|19af1d81-ed4a-4d5b-9e9e-71f3ccb6f808]  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/oauth2/reauth.py", line 348, in refresh_grant
+[MFLOG|0|2024-01-03T16:06:29.814894Z|runtime|0d72cdc1-72c6-4ee5-9a49-87ca6fecc1f9]    raise exceptions.RefreshError(
+[MFLOG|0|2024-01-03T16:06:29.814909Z|runtime|b056b972-a14a-4033-9efb-0d21b50ea116]google.auth.exceptions.RefreshError: Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate.
+[MFLOG|0|2024-01-03T16:06:29.814926Z|runtime|76ab1f31-7da3-434e-94ab-074e8c695786]
+[MFLOG|0|2024-01-03T16:06:29.815263Z|runtime|489edd8d-43b2-4eb6-ba7f-83e8b7b982b8]Task failed.

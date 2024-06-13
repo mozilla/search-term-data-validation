@@ -1,0 +1,27 @@
+2023-12-20 15:21:04,652 INFO    MainThread:63319 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_setup.py:_flush():76] Configure stats pid to 63319
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_setup.py:_flush():76] Loading settings from /Users/chelseatroy/.config/wandb/settings
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_setup.py:_flush():76] Loading settings from /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/settings
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py', 'program_abspath': '/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py', 'program': '/Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/main_flow.py'}
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_init.py:_log_setup():524] Logging user logs to /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20231220_152104-fflo6bws/logs/debug.log
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20231220_152104-fflo6bws/logs/debug-internal.log
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_init.py:init():564] calling init triggers
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'example_metric': 'Example Value!'}
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_init.py:init():614] starting backend
+2023-12-20 15:21:04,653 INFO    MainThread:63319 [wandb_init.py:init():618] setting up manager
+2023-12-20 15:21:04,655 INFO    MainThread:63319 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-12-20 15:21:04,657 INFO    MainThread:63319 [wandb_init.py:init():624] backend started and connected
+2023-12-20 15:21:04,660 INFO    MainThread:63319 [wandb_init.py:init():716] updated telemetry
+2023-12-20 15:21:04,686 INFO    MainThread:63319 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-20 15:21:04,969 INFO    MainThread:63319 [wandb_run.py:_on_init():2254] communicating current version
+2023-12-20 15:21:05,084 INFO    MainThread:63319 [wandb_run.py:_on_init():2263] got version response 
+2023-12-20 15:21:05,084 INFO    MainThread:63319 [wandb_init.py:init():800] starting run threads in backend
+2023-12-20 15:21:05,214 INFO    MainThread:63319 [wandb_run.py:_console_start():2233] atexit reg
+2023-12-20 15:21:05,214 INFO    MainThread:63319 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-12-20 15:21:05,214 INFO    MainThread:63319 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-12-20 15:21:05,214 INFO    MainThread:63319 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-12-20 15:21:05,214 INFO    MainThread:63319 [wandb_init.py:init():841] run started, returning control to user process
+2023-12-20 15:21:11,744 WARNING MsgRouterThr:63319 [router.py:message_loop():77] message_loop has been closed
