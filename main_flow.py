@@ -1,17 +1,20 @@
-from metaflow import Parameter, step, FlowSpec
+from metaflow import Parameter, step, FlowSpec, schedule
 import wandb
 
 from data_validation import retrieve_data_validation_metrics, record_validation_results
-
+# Runs each day at 1 AM UTC
+@schedule(cron='0 1 * * ? *', timezone='Etc/UTC')
 class SearchTermDataValidationFlow(FlowSpec):
     data_validation_origin = Parameter('data_validation_origin',
                                        help='The table from which to draw the data for validation',
                                        required=True,
+                                       default='moz-fx-data-shared-prod.search_terms.sanitization_job_data_validation_metrics',
                                        type=str)
 
     data_validation_reporting_destination = Parameter('data_validation_reporting_destination',
                                                       help='The table into which to put the validation results',
                                                       required=True,
+                                                      default='moz-fx-data-shared-prod.search_terms_derived.search_term_data_validation_reports_v1',
                                                       type=str)
 
     @step
