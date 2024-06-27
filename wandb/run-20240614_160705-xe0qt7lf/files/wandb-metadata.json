@@ -1,0 +1,65 @@
+{
+    "os": "macOS-13.6.1-arm64-arm-64bit",
+    "python": "3.9.6",
+    "heartbeatAt": "2024-06-14T20:07:05.794311",
+    "startedAt": "2024-06-14T20:07:05.344069",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--quiet",
+        "--metadata",
+        "service",
+        "--environment",
+        "local",
+        "--datastore",
+        "gs",
+        "--event-logger",
+        "nullSidecarLogger",
+        "--monitor",
+        "nullSidecarMonitor",
+        "--datastore-root",
+        "gs://obp-rkzcof-metaflow/srchsan/metaflow",
+        "step",
+        "end",
+        "--run-id",
+        "8",
+        "--task-id",
+        "29",
+        "--input-paths",
+        "8/record_results/28",
+        "--retry-count",
+        "0",
+        "--max-user-code-retries",
+        "0",
+        "--namespace",
+        "user:ctroy@mozilla.com"
+    ],
+    "state": "running",
+    "program": "/Users/chelseatroy/mozilla/search-term-data-validation/main_flow.py",
+    "codePathLocal": "main_flow.py",
+    "codePath": "main_flow.py",
+    "git": {
+        "remote": null,
+        "commit": "f11948c536b268b5436441fcf38359bb1c0c3dc8"
+    },
+    "email": "chelsea.dommert@gmail.com",
+    "root": "/Users/chelseatroy/mozilla/search-term-data-validation",
+    "host": "Chelseas-MacBook-Air.local",
+    "username": "chelseatroy",
+    "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 11.098377227783203
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

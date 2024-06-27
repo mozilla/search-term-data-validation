@@ -1,13 +1,0 @@
-[MFLOG|0|2024-02-02T22:07:53.312532Z|runtime|afca24f4-0437-411b-bc4c-e919889d4c62]wandb: Currently logged in as: ctroy (moz-translations). Use `wandb login --relogin` to force relogin
-[MFLOG|0|2024-02-02T22:07:54.031657Z|runtime|ce8813ea-77e1-4622-bf08-539c374bc467]wandb: wandb version 0.16.2 is available!  To upgrade, please run:
-[MFLOG|0|2024-02-02T22:07:54.031879Z|runtime|cbc74ac9-5d11-4dad-acbf-8965240ef334]wandb:  $ pip install wandb --upgrade
-[MFLOG|0|2024-02-02T22:07:54.031914Z|runtime|6a4c402c-9d5a-4bda-820c-bdb8907de76f]wandb: Tracking run with wandb version 0.16.1
-[MFLOG|0|2024-02-02T22:07:54.032006Z|runtime|ae249bec-b43d-4a60-95f5-51e49ff2fe3c]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240202_160753-i07xci8n
-[MFLOG|0|2024-02-02T22:07:54.032968Z|runtime|7c7f5011-695e-4030-80f5-4c7b15269a0e]wandb: Run `wandb offline` to turn off syncing.
-[MFLOG|0|2024-02-02T22:07:54.033007Z|runtime|9a3b5341-498e-4682-91a1-51464d5324e7]wandb: Syncing run stellar-monkey-10
-[MFLOG|0|2024-02-02T22:07:56.383989Z|runtime|7dbe9c02-70af-4915-80a5-42897bb5e186]wandb: ⭐️ View project at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation
-[MFLOG|0|2024-02-02T22:07:56.384413Z|runtime|f648ee41-c8b3-4a82-b367-e40915cf5257]wandb: 🚀 View run at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/runs/i07xci8n
-[MFLOG|0|2024-02-02T22:08:00.723024Z|runtime|e446c5f8-aa77-48f7-b99f-8393b9d03ceb]wandb: - 0.207 MB of 0.407 MB uploadedwandb: \ 0.207 MB of 0.407 MB uploadedwandb: | 0.207 MB of 0.407 MB uploadedwandb: / 0.207 MB of 0.407 MB uploadedwandb: - 0.207 MB of 0.407 MB uploadedwandb: \ 0.207 MB of 0.407 MB uploadedwandb: 🚀 View run stellar-monkey-10 at: https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/runs/i07xci8n
-[MFLOG|0|2024-02-02T22:08:00.725258Z|runtime|d3abdf8d-7235-448a-9d9e-92354c232da6]wandb: ️⚡ View job at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEyODcyNzc0Nw==/version_details/v2
-[MFLOG|0|2024-02-02T22:08:00.725370Z|runtime|d457ba75-3569-4f6c-a638-ccd563a003b7]wandb: Synced 6 W&B file(s), 1 media file(s), 4 artifact file(s) and 1 other file(s)
-[MFLOG|0|2024-02-02T22:08:00.725504Z|runtime|e52a2cc8-6010-4d84-be85-70e71cfb3161]wandb: Find logs at: ./wandb/run-20240202_160753-i07xci8n/logs

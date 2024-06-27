@@ -1,0 +1,27 @@
+diff --git a/.metaflow/SearchTermDataValidationFlow/latest_run b/.metaflow/SearchTermDataValidationFlow/latest_run
+index c793025..301160a 100644
+--- a/.metaflow/SearchTermDataValidationFlow/latest_run
++++ b/.metaflow/SearchTermDataValidationFlow/latest_run
+@@ -1 +1 @@
+-7
+\ No newline at end of file
++8
+\ No newline at end of file
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index b1b61cb..6cbd389 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20240613_114939-v6kp8m3p/logs/debug-internal.log
+\ No newline at end of file
++run-20240614_160705-xe0qt7lf/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index da10c39..de52b8b 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20240613_114939-v6kp8m3p/logs/debug.log
+\ No newline at end of file
++run-20240614_160705-xe0qt7lf/logs/debug.log
+\ No newline at end of file

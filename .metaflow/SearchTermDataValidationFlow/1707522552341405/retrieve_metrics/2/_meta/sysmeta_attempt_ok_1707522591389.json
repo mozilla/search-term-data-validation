@@ -1,1 +1,0 @@
-{"flow_id": "SearchTermDataValidationFlow", "run_number": "1707522552341405", "step_name": "retrieve_metrics", "task_id": "2", "field_name": "attempt_ok", "type": "internal_attempt_status", "value": "True", "tags": ["attempt_id:0"], "user_name": "chelseatroy", "ts_epoch": 1707522591389}

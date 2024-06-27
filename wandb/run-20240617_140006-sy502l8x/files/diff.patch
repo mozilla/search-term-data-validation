@@ -1,0 +1,48 @@
+diff --git a/.metaflow/SearchTermDataValidationFlow/latest_run b/.metaflow/SearchTermDataValidationFlow/latest_run
+index c793025..9a03714 100644
+--- a/.metaflow/SearchTermDataValidationFlow/latest_run
++++ b/.metaflow/SearchTermDataValidationFlow/latest_run
+@@ -1 +1 @@
+-7
+\ No newline at end of file
++10
+\ No newline at end of file
+diff --git a/data_validation.py b/data_validation.py
+index a883c81..1f076bf 100644
+--- a/data_validation.py
++++ b/data_validation.py
+@@ -1,13 +1,9 @@
+-from google.cloud import bigquery
+-from datetime import date, timedelta, datetime
++import re
+ from collections import namedtuple
++from datetime import date, timedelta, datetime
+ 
+-import numpy as np
+ import pandas as pd
+-import asyncio
+-import re
+-import json
+-import string
++from google.cloud import bigquery
+ 
+ project = "moz-fx-mfouterbounds-prod-f98d"
+ 
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index b1b61cb..99be2a2 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20240613_114939-v6kp8m3p/logs/debug-internal.log
+\ No newline at end of file
++run-20240617_140006-sy502l8x/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index da10c39..a39c7c7 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20240613_114939-v6kp8m3p/logs/debug.log
+\ No newline at end of file
++run-20240617_140006-sy502l8x/logs/debug.log
+\ No newline at end of file

@@ -1,6 +1,7 @@
-from metaflow import Parameter, step, FlowSpec, schedule, pypi
+from metaflow import Parameter, step, FlowSpec, schedule
 import wandb
 
+from data_validation import retrieve_data_validation_metrics, record_validation_results
 # Runs each day at 1 AM UTC
 @schedule(cron='0 1 * * ? *', timezone='Etc/UTC')
 class SearchTermDataValidationFlow(FlowSpec):
@@ -24,26 +25,11 @@ class SearchTermDataValidationFlow(FlowSpec):
         It prints out the input parameters to the job
         and initializes an experiment tracking run.
         '''
-        import os
-
-        print(os.getenv('GOOGLE_APPLICATION_CREDENTIALS'))
-
         print(f"Data Validation Origin: {self.data_validation_origin}")
         print(f"Data Validation Reporting Destination: {self.data_validation_reporting_destination}")
 
         self.next(self.retrieve_metrics)
 
-    @pypi(
-        python='3.10.11',
-        packages={
-            'pandas': '2.1.4',
-            'google-api-core': '2.19.0',
-            'google-cloud-storage': '2.16.0',
-            'google-cloud-bigquery': '3.25.0',
-            'db-dtypes': '1.2.0',
-            'wandb': '0.16.6',
-        }
-    )
     @step
     def retrieve_metrics(self):
         '''
@@ -53,22 +39,9 @@ class SearchTermDataValidationFlow(FlowSpec):
         '''
         print("Retrieving Data Validation Metrics Now...")
 
-        from data_validation import retrieve_data_validation_metrics
-
         self.validation_df = retrieve_data_validation_metrics(self.data_validation_origin)
         self.next(self.record_results)
 
-    @pypi(
-        python='3.10.11',
-        packages={
-            'pandas': '2.1.4',
-            'google-api-core': '2.19.0',
-            'google-cloud-storage': '2.16.0',
-            'google-cloud-bigquery': '3.25.0',
-            'db-dtypes': '1.2.0',
-            'wandb': '0.16.6',
-        }
-    )
     @step
     def record_results(self):
         '''
@@ -78,9 +51,6 @@ class SearchTermDataValidationFlow(FlowSpec):
         '''
         print(f"Input Dataframe Shape: {self.validation_df.shape}")
         print("Recording validation results...")
-
-        from data_validation import record_validation_results
-
         record_validation_results(self.validation_df, self.data_validation_reporting_destination)
         self.next(self.end)
 
@@ -92,8 +62,16 @@ class SearchTermDataValidationFlow(FlowSpec):
          and then prints an encouraging message.
          We could all use one every now and then.
          '''
-        print(f'That was easy!')
+        run = wandb.init(
+            project="instep-wandb-search-term-data-validation",
+            config={
+                "example_metric": "Example Value!"
+            }
+        )
 
+        run.log({"search-term-data-validation-df": wandb.Table(dataframe=self.validation_df)})
+
+        print(f'That was easy!')
 
 if __name__ == '__main__':
     SearchTermDataValidationFlow()

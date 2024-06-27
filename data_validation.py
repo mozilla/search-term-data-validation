@@ -1,13 +1,9 @@
-from google.cloud import bigquery
-from datetime import date, timedelta, datetime
-from collections import namedtuple
-
-import numpy as np
-import pandas as pd
-import asyncio
 import re
-import json
-import string
+from collections import namedtuple
+from datetime import date, timedelta, datetime
+
+import pandas as pd
+from google.cloud import bigquery
 
 project = "moz-fx-mfouterbounds-prod-f98d"
 

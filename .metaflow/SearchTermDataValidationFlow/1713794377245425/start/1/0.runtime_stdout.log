@@ -1,2 +1,0 @@
-[MFLOG|0|2024-04-22T13:59:38.336001Z|runtime|1dde7b91-9bb6-4589-b588-a97ec333b75a]Data Validation Origin: moz-fx-data-shared-prod.search_terms.sanitization_job_data_validation_metrics
-[MFLOG|0|2024-04-22T13:59:38.473002Z|runtime|20af96e2-bb84-416d-91df-dca936113ac1]Data Validation Reporting Destination: mozdata.search_terms_unsanitized_analysis.prototype_data_validation_reports_v1

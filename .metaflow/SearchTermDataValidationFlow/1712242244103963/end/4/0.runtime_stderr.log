@@ -1,13 +1,0 @@
-[MFLOG|0|2024-04-04T14:51:30.326705Z|runtime|06bc9b19-207e-4e2f-865d-0ee2504eb7df]wandb: Currently logged in as: ctroy (moso). Use `wandb login --relogin` to force relogin
-[MFLOG|0|2024-04-04T14:51:30.874487Z|runtime|543e8e3c-2224-4b47-982a-f2b12cd76b72]wandb: wandb version 0.16.6 is available!  To upgrade, please run:
-[MFLOG|0|2024-04-04T14:51:30.879190Z|runtime|e7196f40-31f9-4ad0-9b65-e79f5bcbda31]wandb:  $ pip install wandb --upgrade
-[MFLOG|0|2024-04-04T14:51:30.879654Z|runtime|7d0388d0-1736-4142-a9b7-9966274284f1]wandb: Tracking run with wandb version 0.16.4
-[MFLOG|0|2024-04-04T14:51:30.884531Z|runtime|cfebc348-4380-4440-abd7-2acf183d37ed]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240404_095130-hawoygyh
-[MFLOG|0|2024-04-04T14:51:30.887202Z|runtime|5b521a9c-c0d9-46fa-aef2-0e570260e101]wandb: Run `wandb offline` to turn off syncing.
-[MFLOG|0|2024-04-04T14:51:30.887903Z|runtime|f1d1836e-827e-4ccf-ac63-8fc7e0707102]wandb: Syncing run iconic-jazz-2
-[MFLOG|0|2024-04-04T14:51:33.716181Z|runtime|ab125ff9-a348-46dd-b685-26bceea512de]wandb: ⭐️ View project at https://wandb.ai/moso/instep-wandb-search-term-data-validation
-[MFLOG|0|2024-04-04T14:51:33.747354Z|runtime|9b6b98ca-8cc8-42b8-b78c-94f83dac8bdf]wandb: 🚀 View run at https://wandb.ai/moso/instep-wandb-search-term-data-validation/runs/hawoygyh
-[MFLOG|0|2024-04-04T14:51:36.359031Z|runtime|5c920cb0-e5cb-4db8-8bb2-f7fc5ffb966f]wandb: - 0.449 MB of 0.449 MB uploadedwandb: \ 0.449 MB of 0.449 MB uploadedwandb: | 0.449 MB of 0.455 MB uploadedwandb: / 0.454 MB of 0.455 MB uploadedwandb: 🚀 View run iconic-jazz-2 at: https://wandb.ai/moso/instep-wandb-search-term-data-validation/runs/hawoygyh
-[MFLOG|0|2024-04-04T14:51:36.364222Z|runtime|11438d50-2a93-4b6a-8110-181beaaf0b04]wandb: ️⚡ View job at https://wandb.ai/moso/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NjA3NDQwNQ==/version_details/v0
-[MFLOG|0|2024-04-04T14:51:36.364904Z|runtime|e48076c3-ceeb-4580-a646-5ac0764d2f62]wandb: Synced 6 W&B file(s), 1 media file(s), 1 artifact file(s) and 1 other file(s)
-[MFLOG|0|2024-04-04T14:51:36.365107Z|runtime|f6bc46ba-ed70-4185-9aa2-b52d1bb1194e]wandb: Find logs at: ./wandb/run-20240404_095130-hawoygyh/logs

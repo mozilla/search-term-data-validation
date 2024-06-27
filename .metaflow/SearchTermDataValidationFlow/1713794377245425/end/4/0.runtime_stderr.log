@@ -1,13 +1,0 @@
-[MFLOG|0|2024-04-22T13:59:48.764194Z|runtime|784200ad-909a-4d1e-b57c-fd42aec69784]wandb: Currently logged in as: ctroy (moso). Use `wandb login --relogin` to force relogin
-[MFLOG|0|2024-04-22T13:59:49.280926Z|runtime|5c39f72d-a829-4f8e-9894-5cff0ac37b66]wandb: wandb version 0.16.6 is available!  To upgrade, please run:
-[MFLOG|0|2024-04-22T13:59:49.281046Z|runtime|24d0ccfb-8260-4352-b07f-9077284d2800]wandb:  $ pip install wandb --upgrade
-[MFLOG|0|2024-04-22T13:59:49.281094Z|runtime|11b41a6e-0b12-4c39-b07f-4b34826872bc]wandb: Tracking run with wandb version 0.16.3
-[MFLOG|0|2024-04-22T13:59:49.281141Z|runtime|8b81a3af-387f-47b5-b8bd-e7d42d418a69]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240422_085948-z0604p5x
-[MFLOG|0|2024-04-22T13:59:49.282517Z|runtime|94b823d8-5dc4-4a1c-8729-6985d661e38a]wandb: Run `wandb offline` to turn off syncing.
-[MFLOG|0|2024-04-22T13:59:49.282650Z|runtime|7bbb5a62-0005-46f3-9ea3-ebca452756d4]wandb: Syncing run cerulean-star-6
-[MFLOG|0|2024-04-22T13:59:52.712240Z|runtime|f3aeac82-24c2-4c22-8bc4-7600c36fd9e7]wandb: ⭐️ View project at https://wandb.ai/moso/instep-wandb-search-term-data-validation
-[MFLOG|0|2024-04-22T13:59:52.713892Z|runtime|12a6e97d-52a3-4f46-a680-3365bc157ac6]wandb: 🚀 View run at https://wandb.ai/moso/instep-wandb-search-term-data-validation/runs/z0604p5x
-[MFLOG|0|2024-04-22T13:59:54.860753Z|runtime|cb4de504-d142-46af-9af0-66bba5ae9065]wandb: - 0.460 MB of 0.460 MB uploadedwandb: \ 0.460 MB of 0.460 MB uploadedwandb: | 0.471 MB of 0.476 MB uploaded (0.006 MB deduped)wandb: / 0.477 MB of 0.477 MB uploaded (0.006 MB deduped)wandb: 🚀 View run cerulean-star-6 at: https://wandb.ai/moso/instep-wandb-search-term-data-validation/runs/z0604p5x
-[MFLOG|0|2024-04-22T13:59:54.861293Z|runtime|90470788-ce46-41b5-9a3e-721bbeeb00d8]wandb: ️⚡ View job at https://wandb.ai/moso/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NjA3NDQwNQ==/version_details/v3
-[MFLOG|0|2024-04-22T13:59:54.861642Z|runtime|2e86b23e-087f-482b-87da-1a7f31ea9ede]wandb: Synced 6 W&B file(s), 1 media file(s), 4 artifact file(s) and 1 other file(s)
-[MFLOG|0|2024-04-22T13:59:54.861831Z|runtime|c042efbf-eeab-4f50-b8cd-1402e2bb84a5]wandb: Find logs at: ./wandb/run-20240422_085948-z0604p5x/logs

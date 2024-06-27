@@ -1,13 +1,0 @@
-[MFLOG|0|2024-01-10T19:37:42.341872Z|runtime|0a02ba92-8d2d-42aa-aeb3-b3405170191e]wandb: Currently logged in as: ctroy (moz-translations). Use `wandb login --relogin` to force relogin
-[MFLOG|0|2024-01-10T19:37:43.111437Z|runtime|c8c7e6e5-4735-4221-96de-e792ae8e8739]wandb: wandb version 0.16.2 is available!  To upgrade, please run:
-[MFLOG|0|2024-01-10T19:37:43.111528Z|runtime|a1bd9b8b-dd25-4cae-96b1-6ad65c21b22f]wandb:  $ pip install wandb --upgrade
-[MFLOG|0|2024-01-10T19:37:43.111556Z|runtime|4fbfbd11-89d3-44d0-99af-127371b8f0b0]wandb: Tracking run with wandb version 0.16.1
-[MFLOG|0|2024-01-10T19:37:43.111590Z|runtime|722e8cda-5167-43ee-8efb-12a895b94678]wandb: Run data is saved locally in /Users/chelseatroy/mozilla/docker-etl/jobs/search-term-data-validation-v2/search_term_data_validation_v2/wandb/run-20240110_133742-hjuf4257
-[MFLOG|0|2024-01-10T19:37:43.112708Z|runtime|1e3953a5-2277-47a4-b2dd-ac8b906f078c]wandb: Run `wandb offline` to turn off syncing.
-[MFLOG|0|2024-01-10T19:37:43.112752Z|runtime|0e998655-a29d-4e98-84c3-37322dc4d69b]wandb: Syncing run glad-disco-2
-[MFLOG|0|2024-01-10T19:37:45.410140Z|runtime|b2ebcd7f-87fe-459b-b796-a21fc26585ac]wandb: ⭐️ View project at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation
-[MFLOG|0|2024-01-10T19:37:45.410711Z|runtime|cc5700e3-1049-4212-baa9-acb93c9e64dc]wandb: 🚀 View run at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/runs/hjuf4257
-[MFLOG|0|2024-01-10T19:37:48.462040Z|runtime|9069f960-0802-49fa-9ceb-5cd649e36725]wandb: - 0.199 MB of 0.391 MB uploadedwandb: \ 0.199 MB of 0.391 MB uploadedwandb: | 0.199 MB of 0.391 MB uploadedwandb: / 0.199 MB of 0.391 MB uploadedwandb: - 0.199 MB of 0.391 MB uploadedwandb: 🚀 View run glad-disco-2 at: https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/runs/hjuf4257
-[MFLOG|0|2024-01-10T19:37:48.463013Z|runtime|2746d858-7bc6-4797-bb69-b48d21ba4d4b]wandb: ️⚡ View job at https://wandb.ai/moz-translations/instep-wandb-search-term-data-validation/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEyODcyNzc0Nw==/version_details/v1
-[MFLOG|0|2024-01-10T19:37:48.463269Z|runtime|e7d5cdc7-96d2-4dee-803a-6d1a527fdf77]wandb: Synced 6 W&B file(s), 1 media file(s), 4 artifact file(s) and 1 other file(s)
-[MFLOG|0|2024-01-10T19:37:48.463474Z|runtime|451c6d65-c48e-4d84-a283-75155a711553]wandb: Find logs at: ./wandb/run-20240110_133742-hjuf4257/logs
