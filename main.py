@@ -1,10 +1,6 @@
 print("Look at me! I'm running a Python command! WOW!")
 
 import argparse
-import pandas as pd
-
-from datetime import date, timedelta
-from collections import namedtuple
 
 from data_validation import retrieve_data_validation_metrics, record_validation_results
 
