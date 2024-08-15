@@ -2,7 +2,7 @@ from metaflow import Parameter, step, FlowSpec, schedule, pypi
 import wandb
 
 # Runs each day at 1 AM UTC
-@schedule(cron='0 1 * * ? *', timezone='Etc/UTC')
+@schedule(cron='0 10 * * ? *', timezone='Etc/UTC')
 class SearchTermDataValidationFlow(FlowSpec):
     data_validation_origin = Parameter('data_validation_origin',
                                        help='The table from which to draw the data for validation',
