@@ -4,6 +4,12 @@ import wandb
 # Runs each day at 1 AM UTC
 @schedule(cron='0 1 * * ? *', timezone='Etc/UTC')
 class SearchTermDataValidationFlow(FlowSpec):
+    '''
+    A flow that checks some aggregate metrics on the day's search traffic
+    (query length, capitalization, language classification) against historic metrics
+    to detect changes in the makeup of search requests to Firefox.
+    '''
+
     data_validation_origin = Parameter('data_validation_origin',
                                        help='The table from which to draw the data for validation',
                                        required=True,
