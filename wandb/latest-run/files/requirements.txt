@@ -112,7 +112,7 @@ jupyter==1.0.0
 jupyterlab-pygments==0.3.0
 jupyterlab-server==2.25.2
 jupyterlab-widgets==3.0.9
-jupyterlab==4.0.9
+jupyterlab==4.2.5
 kiwisolver==1.4.5
 kubernetes==29.0.0
 langcodes==3.3.0
